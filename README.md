@@ -7,7 +7,7 @@ An util to query china province, city and district data.
 ### Install
 
 ```bash
-npm install province-city-china
+npm install province-city-china --save-dev
 ```
 
 ### Usage
