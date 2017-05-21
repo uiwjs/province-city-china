@@ -2,7 +2,8 @@
 province city china
 ---
 
-An util to query china province, city and district data.
+An util to query china province, city and district data.   
+[最新县及县以上行政区划代码（截止2016年7月31日）](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/)  
 
 ### Install
 
