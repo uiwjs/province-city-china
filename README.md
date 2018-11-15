@@ -65,7 +65,7 @@ const city = require('province-city-china/dist/city.json');
 
 | 文件列表 | JSON | CSV | SQL |
 | ---- | ---- | ---- | ---- |
-| 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.csv](./dist/data.sql) |
+| 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) |
 | 省/地/县/乡层级数据 | [level.json](./dist/level.json) | - | - |
 | 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) | [province.csv](./dist/province.csv) | - |
 | 地级(城市) | [city.json](./dist/city.json) | [city.csv](./dist/city.csv) | - |
