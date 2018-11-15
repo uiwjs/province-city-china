@@ -1,68 +1,73 @@
-
-province city china
+中华人民共和国行政区划代码
 ---
 
-An util to query china province, city and district data.   
-[最新县及县以上行政区划代码（截止2016年7月31日）](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/)  
+中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
-### Install
+用于查询中国省，市和区数据的工具。 
+
+- [最新县及县以上行政区划代码(截止2016年7月31日)](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/)  
+- [中华人民共和国行政区划代码](http://www.mca.gov.cn/article/sj/xzqh/2018/)  
+- [统计用区划和城乡划分代码 2018-06-20](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+
+### 安装
 
 ```bash
 npm install province-city-china --save-dev
 ```
 
-### Usage
+### 使用
+
+**所有数据**
 
 ```js
-var provinces = require('province-city-china');
-
-// result ===>
-
+const provinces = require('province-city-china/dist/data.json');
+// provinces 输出 ===>
 [
-  {'id':1,'name':'北京市','parent_id':0,'level':1},
-  {'id':2,'name':'天津市','parent_id':0,'level':1},
-  {'id':3,'name':'河北省','parent_id':0,'level':1},
-  {'id':4,'name':'山西省','parent_id':0,'level':1},
-  {'id':5,'name':'内蒙古自治区','parent_id':0,'level':1},
-  {'id':6,'name':'辽宁省','parent_id':0,'level':1},
-  {'id':7,'name':'吉林省','parent_id':0,'level':1},
-  {'id':8,'name':'黑龙江省','parent_id':0,'level':1},
-  {'id':9,'name':'上海市','parent_id':0,'level':1},
+  {"code":"110000","name":"北京市","province":"11","city":0,"area":0,"town":0},
+  {"code":"110101","name":"东城区","province":"11","city":"01","area":"01","town":0},
+  {"code":"110102","name":"西城区","province":"11","city":"01","area":"02","town":0},
+  {"code":"110105","name":"朝阳区","province":"11","city":"01","area":"05","town":0},
   ....
 ]
 ```
 
-result json
+规则：
+
+- `province - 省级(省/直辖市/特别行政区)` - `city=0`, `area=0`, `town=0`
+- `city - 地级(城市)` - `area=0`, `town=0`
+- `area - 县级(区县)` - `town=0` 其它不为 `0`
+- `town - 乡级(乡镇/街)` - 所有值不为 `0`
+
+> `province` 第一位表示：华北区`1`，东北区`2`，华东区`3`，中南区`4`，西南区`5`，西北区`6`。 如 `湖北省 -> 42` 以 `4` 开头，表示为 `中南区`。
+
+**获取城市数据**
 
 ```js
-var provinces = require('province-city-china');
-provinces.json
-
-// result ===>
+const city = require('province-city-china/dist/city.json');
+// city 输出 ===>
 [
-  {
-    "label": "北京市",
-    "value": "北京市",
-    "children": [
-      {
-        "label": "东城区",
-        "value": "东城区",
-        "children": [
-          {"label": "东华门街道", "value": "东华门街道"},
-          {"label": "东四街道", "value": "东四街道"},
-          {"label": "东直门街道", "value": "东直门街道"},
-          {"label": "交道口街道", "value": "交道口街道"},
-          {"label": "北新桥街道", "value": "北新桥街道"}, 
-          {"label": "和平里街道", "value": "和平里街道"},
-          {"label": "安定门街道", "value": "安定门街道"},
-          {"label": "建国门街道", "value": "建国门街道"},
-          {"label": "景山街道", "value": "景山街道"},
-          {"label": "朝阳门街道", "value": "朝阳门街道"}
-        ]
-      },
-      ...
-    ]
-  }
+  {"code":"01","name":"石家庄市","province":"13"},
+  {"code":"02","name":"唐山市","province":"13"},
+  {"code":"03","name":"秦皇岛市","province":"13"},
+  {"code":"04","name":"邯郸市","province":"13"},
+  {"code":"05","name":"邢台市","province":"13"},
   ....
 ]
 ```
+
+说明：
+
+- `code` - 城市代码
+- `name` - 城市名称
+- `province` - 省/直辖市/特别行政区代码
+
+## 更多数据
+
+| 文件列表 | JSON | CSV | SQL |
+| ---- | ---- | ---- | ---- |
+| 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.csv](./dist/data.sql) |
+| 省/地/县/乡层级数据 | [level.json](./dist/level.json) | - | - |
+| 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) | [province.csv](./dist/province.csv) | - |
+| 地级(城市) | [city.json](./dist/city.json) | [city.csv](./dist/city.csv) | - |
+| 县级(区县) | [area.json](./dist/area.json) | [area.csv](./dist/area.csv) | - |
+| 乡级(乡镇/街) | [town.json](./dist/town.json) | [town.csv](./dist/town.csv) | - |
