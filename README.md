@@ -5,9 +5,8 @@
 
 用于查询中国省，市和区数据的工具。 
 
-- [最新县及县以上行政区划代码(截止2016年7月31日)](http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/)  
-- [中华人民共和国行政区划代码](http://www.mca.gov.cn/article/sj/xzqh/2018/)  
-- [统计用区划和城乡划分代码 2018-06-20](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [中华人民共和国行政区划代码，更新时间：2018-10-29](http://www.mca.gov.cn/article/sj/xzqh/2018/)  
+- [统计用区划和城乡划分代码，更新时间：2018-06-20](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 安装
 
