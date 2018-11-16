@@ -16,6 +16,16 @@ npm install province-city-china --save-dev
 
 ### 使用
 
+```js
+const { data, province, city, area, town } = require('province-city-china/data');
+```
+
+- `data` - 总数据(省/地/县/乡)
+- `province` - 省级(省/直辖市/特别行政区)
+- `city` - 地级(城市)
+- `area` - 县级(区县)
+- `town` - 乡级(乡镇/街)
+
 **所有数据**
 
 ```js
