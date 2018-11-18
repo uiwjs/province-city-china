@@ -6,7 +6,7 @@
 DROP TABLE IF EXISTS `province`;
 CREATE TABLE `province` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `code` int(11) DEFAULT NULL COMMENT '行政区划代码',
+  `code` bigint(12) DEFAULT NULL COMMENT '行政区划代码',
   `name` varchar(32) DEFAULT NULL COMMENT '名称',
   `province` varchar(32) DEFAULT NULL COMMENT '省/直辖市',
   `city` varchar(32) DEFAULT NULL COMMENT '市',
