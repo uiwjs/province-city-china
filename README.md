@@ -1,6 +1,8 @@
 中华人民共和国行政区划代码
 ---
 
+[![](https://img.shields.io/github/issues/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/issues) [![](https://img.shields.io/github/forks/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/network) [![](https://img.shields.io/github/stars/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/stargazers) [![](https://img.shields.io/github/release/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg)
+
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
 用于查询中国省，市和区数据的工具。 
