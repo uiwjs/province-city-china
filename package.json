@@ -12,6 +12,11 @@
     "province",
     "china"
   ],
+  "files": [
+    "dist",
+    "data.js",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jaywcjlove/province-city-china.git"
