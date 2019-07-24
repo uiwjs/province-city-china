@@ -1,6 +1,6 @@
 {
   "name": "province-city-china",
-  "version": "2.0.6",
+  "version": "2.0.8",
   "description": "An util to query china province, city and district data.",
   "main": "index.js",
   "scripts": {
