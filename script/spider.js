@@ -12,7 +12,7 @@ require('superagent-charset')(request);
 async function getTown({ name, code, province, city }) {
   return new Promise(async (resolve, reject) => {
     try {
-      const res = await request.get(`http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/${province}/${city}/${code}.html`).buffer(true).charset('gb2312');
+      const res = await request.get(`http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/${province}/${city}/${code}.html`).buffer(true).charset('gb2312');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
@@ -45,18 +45,23 @@ async function getTown({ name, code, province, city }) {
 function getProvinceCity() {
   return new Promise(async (resolve, reject) => {
     try {
-      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2018/201804-12/20180910291042.html');
+      console.log('=> 获取省市区数据')
+      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2019/201901-06/201906211421.html');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
       $('table tbody tr').map((index, item) => {
         if (item.name === 'tr' && item.type === 'tag' && item.attribs.height === '19') {
           const td = item.children.filter(it => it.name === 'td' && it.children.length > 0);
-          const code = td[0].children[0].children ? td[0].children[0].children[0].data : td[0].children[0].data;
-          const json = {
-            code,
-            name: td[1].children[0].data,
+          let code = td[0].children[0].children ? td[0].children[0].children[0].data : td[0].children[0].data;
+          let name = td[1].children[0].data;
+          if (!code.trim()) {
+            code = td[0].children[0].next.data;
           }
+          if (!name || !name.trim()) {
+            name = td[1].children[0].next.data;
+          }
+          const json = { code, name }
           const province = String(json.code).replace(/0000$/, '')
           if (json.code && province.length === 2) {
             // 省 规则: 后四位 0000
@@ -98,9 +103,10 @@ function getProvinceCity() {
             if (data[num] && data[num].area === 0) {
               return func();
             }
+            console.log('> Fetch: ', data[num]);
             getTown(data[num]).then((townData) => {
               if (townData && townData.length > 0) {
-                console.log('> Fetch: ', townData.length, data[num].name, data[num].code, data[num].area);
+                // console.log('> Fetch: ', townData.length, data[num].name, data[num].code, data[num].area);
                 totals = totals.concat(townData);
               } else {
                 if (emptyArea.indexOf(data[num].code) > -1) {
