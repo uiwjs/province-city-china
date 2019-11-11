@@ -5,10 +5,14 @@
 
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
-用于查询中国省，市和区数据的工具。 
+来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
 - [中华人民共和国行政区划代码，更新时间：2019-06-21](http://www.mca.gov.cn/article/sj/xzqh/2019)  
 - [统计用区划和城乡划分代码，更新时间：2019-01-31](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+
+### 数据更新 Diff
+
+- [数据更新 2019-06-21](https://github.com/wabg/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
 
 ### 安装
 
