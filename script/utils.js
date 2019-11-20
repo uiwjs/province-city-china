@@ -8,12 +8,14 @@ require('superagent-charset')(request);
 /**
  * 获取城镇数据
  * @param {Object} {code,name}
+ * 
  */
-async function getTown({ name, code, province, city }) {
+exports.getTown = function({ name, code, province, city }) {
   return new Promise(async (resolve, reject) => {
+    const url = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/${province}/${city}/${code}.html`;
     try {
-      const res = await request.get(`http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/${province}/${city}/${code}.html`).buffer(true).charset('gb2312');
-      if (!res || !res.text) return resolve([]);
+      const res = await request.get(url).buffer(true).charset('gb2312');
+      if (!res || !res.text) return reject();
       const $ = cheerio.load(res.text);
       const data = [];
       $('table tbody tr.towntr').map((index, item) => {
@@ -29,12 +31,12 @@ async function getTown({ name, code, province, city }) {
           json.city = code.substr(2, 2);
           json.area = code.substr(4, 2);
           json.town = json.code.substr(6, json.code.length - 6);
-          data.push(json)
+          data.push(json);
         };
       });
       resolve(data);
     } catch (error) {
-      resolve([]);
+      reject({ message: error.message, url });
     }
   });
 }
@@ -42,11 +44,11 @@ async function getTown({ name, code, province, city }) {
 /**
  * 获取省市区数据
  */
-function getProvinceCity() {
+exports.getProvinceCity = () => {
   return new Promise(async (resolve, reject) => {
     try {
       console.log('=> 获取省市区数据')
-      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2019/201901-06/201906211421.html');
+      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2019/2019/201911051008.html');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
@@ -87,65 +89,85 @@ function getProvinceCity() {
           data.push(json);
         }
       });
-      let totals = data;
-      let num = 0;
-      const emptyArea = [];
-      const func = () => {
-        if (data[num]) {
-          setTimeout(() => {
-            num += 1;
-            // 数据请求完成
-            if (data.length === num) {
-              console.log('emptyArea:', emptyArea);
-              return resolve(totals);
-            }
-            // 市，区代码为 0，不请求数据
-            if (data[num] && data[num].area === 0) {
-              return func();
-            }
-            console.log('> Fetch: ', data[num]);
-            getTown(data[num]).then((townData) => {
-              if (townData && townData.length > 0) {
-                // console.log('> Fetch: ', townData.length, data[num].name, data[num].code, data[num].area);
-                totals = totals.concat(townData);
-              } else {
-                if (emptyArea.indexOf(data[num].code) > -1) {
-                  emptyArea.push(data[num].code);
-                }
-              }
-              func();
-            }).catch((error) => {
-              console.log('> error:', error);
-            });
-          }, 2000);
-        }
-      }
-      func();
+      resolve(data)
     } catch (error) {
       reject(error);
     }
   });
 }
 
-
-async function saveFile(filePath, data) {
+exports.save = async (filePath, data) => {
   filePath = path.join(process.cwd(), 'dist', filePath);
-  console.log('> 数据保存:', filePath);
+  console.log('  ✔ 数据保存:', filePath.replace(process.cwd(), '').replace(new RegExp(`^${path.sep}`), ''));
   await fs.outputFile(filePath, data);
 }
 
-async function main() {
-  const data = await getProvinceCity();
-  console.log(`> 省市区数据：${data.length}`)
-  await saveFile('data.json', JSON.stringify(data));
+/**
+ * JSON数组数据，转换成 CSV
+ * 
+ * ```js
+ * [
+ *   {
+ *     "code": "130000",
+ *     "name": "河北省",
+ *     "province": "13",
+ *     "city": 0,
+ *     "area": 0,
+ *     "town": 0
+ *   }
+ * ]
+ * // ===> to CSV
+ * code,name,province
+ * 110000,北京市,11
+ * 120000,天津市,12
+ * ```
+ * 过滤等于 `0` 的值
+ */
+exports.JSON2CSV = (arr = []) => {
+  let csvStr = '';
+  arr.forEach((item, idx) => {
+    if (idx === 0) {
+      csvStr += Object.keys(item).map(name => item[name] !== 0 && name).filter(Boolean).join(',');
+    }
+    csvStr += '\n';
+    csvStr += Object.keys(item).map(name => item[name] !== 0 && item[name]).filter(Boolean).join(',');
+  });
+  
+  return csvStr;
 }
 
-main().then(() => process.exit(0)).catch(e => {
-  if (e && e.status) {
-    console.log('err:=>>', e.status, e.message, e.response.get('date'), e.response.toJSON().method)
-    console.log('err:=>>', e.response.toJSON().req.method, e.response.toJSON().req.url)
-  } else {
-    console.log('err::=>>', e)
-  }
-  process.exit(-1)
-})
+/**
+ * 过滤 0 值
+ * 
+ * ```js
+ * [
+ *   {
+ *     "code": "130000",
+ *     "name": "河北省",
+ *     "province": "13",
+ *     "city": 0,
+ *     "area": 0,
+ *     "town": 0
+ *   }
+ * ]
+ * ```
+ * 将上面数据 `city`, `area`, `town` 过滤掉
+ * @param {Object[]} arr 省市区数据
+ * @param {String[]} keys 需要过滤的数据 如：[`city`]
+ */
+exports.filterValue = (arr = [], keys = []) => {
+  return arr.map(m => {
+    const json = {};
+    Object.keys(m).forEach(key => {
+      if (!keys.includes(key)) {
+        json[key] = m[key];
+      }
+    });
+    return json;
+  })
+}
+
+exports.sleep = function(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+

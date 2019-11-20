@@ -4,9 +4,12 @@
   "description": "An util to query china province, city and district data.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node script/spider.js",
-    "build": "node script/output.js"
+    "start": "npm run get && npm run get:town && npm run create:data:json:csv",
+    "get:town": "node script/getTown.js",
+    "get": "npm run create:province:city && npm run create:level",
+    "create:province:city": "node script/getProvinceCity.js",
+    "create:level": "node script/createLevelData.js",
+    "create:data:json:csv": "node script/createDataCSVAndJSON.js"
   },
   "keywords": [
     "province",
@@ -24,9 +27,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "fs-extra": "^7.0.1",
-    "superagent": "^4.0.0-beta.5",
+    "superagent": "^5.1.0",
     "superagent-charset": "^1.2.0"
   }
 }
