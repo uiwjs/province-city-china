@@ -1,7 +1,7 @@
 中华人民共和国行政区划代码
 ---
 
-[![](https://img.shields.io/github/issues/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/issues) [![](https://img.shields.io/github/forks/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/network) [![](https://img.shields.io/github/stars/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/stargazers) [![](https://img.shields.io/github/release/wabg/province-city-china.svg)](https://github.com/wabg/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg) [![](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
+[![](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) [![](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) [![](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) [![](https://img.shields.io/github/releaseuiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg) [![](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
 
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
@@ -12,8 +12,8 @@
 
 ### 数据更新 Diff
 
-- [数据更新 2019-11-05](https://github.com/wabg/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
-- [数据更新 2019-06-21](https://github.com/wabg/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
+- [数据更新 2019-11-05](https://github.com/uiwjs/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
+- [数据更新 2019-06-21](https://github.com/uiwjs/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
 
 ### 安装
 
