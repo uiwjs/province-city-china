@@ -7,7 +7,7 @@
 
 来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
-- [中华人民共和国行政区划代码，更新时间：2019-06-21](http://www.mca.gov.cn/article/sj/xzqh/2019)  
+- [中华人民共和国行政区划代码，更新时间：2019-11-05](http://www.mca.gov.cn/article/sj/xzqh/2019)  
 - [统计用区划和城乡划分代码，更新时间：2019-01-31](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 数据更新 Diff
@@ -88,6 +88,25 @@ const city = require('province-city-china/dist/city.json');
 | 地级(城市) | [city.json](./dist/city.json) | [city.csv](./dist/city.csv) | - | [city.json](https://unpkg.com/province-city-china/dist/city.json) / [csv](https://unpkg.com/province-city-china/dist/city.csv) |
 | 县级(区县) | [area.json](./dist/area.json) | [area.csv](./dist/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |
 | 乡级(乡镇/街) | [town.json](./dist/town.json) | [town.csv](./dist/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
+
+### 总数据(省/地/县/乡)
+
+[data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
+
+```json
+[
+  {
+    "code": "110000",
+    "name": "北京市",
+    "province": "11",
+    "city": 0,
+    "area": 0,
+    "town": 0
+  },
+]
+```
+
+**省/地/县/乡层级数据**
 
 
 ## License
