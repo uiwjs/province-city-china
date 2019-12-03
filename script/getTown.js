@@ -4,7 +4,7 @@ const { getTown, sleep } = require('./utils');
 
 const rootPath = path.join(process.cwd(), 'dist');
 const cachePath = path.join(process.cwd(), '.cache', 'data.json');
-const cacheNotFoundPath = path.join(process.cwd(), '.cache', 'dataNotFound.json');
+const cityeNotFoundTown = path.join(rootPath, 'cityNotFoundTown.json');
 const jsonPath = path.join(rootPath, 'town.json');
 const csvPath = path.join(rootPath, 'town.csv');
 
@@ -65,12 +65,12 @@ const csvPath = path.join(rootPath, 'town.csv');
         console.log('loop:error:001:', error.message, error.url);
         // 数据不存在或者请求错误跳过
         if(error.message === 'Not Found' && itemData) {
-          if (!fs.existsSync(cacheNotFoundPath)) {
-            await fs.outputJSON(cacheNotFoundPath, []);
+          if (!fs.existsSync(cityeNotFoundTown)) {
+            await fs.outputJSON(cityeNotFoundTown, []);
           }
-          const notFoundData = require(cacheNotFoundPath);
+          const notFoundData = require(cityeNotFoundTown);
           notFoundData.unshift(itemData);
-          await fs.outputFile(cacheNotFoundPath, JSON.stringify(notFoundData, null, 2));
+          await fs.outputFile(cityeNotFoundTown, JSON.stringify(notFoundData, null, 2));
           // 获取成功删除第一条数据
           cacheData.shift();
           await fs.outputFile(cachePath, JSON.stringify(cacheData, null, 2));
