@@ -92,6 +92,12 @@ const city = require('province-city-china/dist/city.json');
 | 乡级(乡镇/街) | [town.json](./dist/town.json) | [town.csv](./dist/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
 | 县市区没有乡级数据 | [cityNotFoundTown.json](./dist/cityNotFoundTown.json) | - | - | [cityNotFoundTown.json](https://unpkg.com/province-city-china/dist/cityNotFoundTown.json) |
 
+更多 CDN 数据访问
+
+- https://unpkg.com/province-city-china/dist/city.json
+- https://raw.githack.com/uiwjs/province-city-china/gh-pages/city.json
+- https://cdn.statically.io/gh/uiwjs/province-city-china/gh-pages/city.json
+
 ### 总数据(省/地/县/乡)
 
 [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
