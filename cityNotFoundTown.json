@@ -1,34 +1,50 @@
 [
   {
-    "code": "659009",
-    "name": "昆玉市",
-    "province": "65",
-    "city": "90",
-    "area": "09",
+    "code": "510981",
+    "name": "射洪市",
+    "province": "51",
+    "city": "09",
+    "area": "81",
     "town": 0
   },
   {
-    "code": "659008",
-    "name": "可克达拉市",
-    "province": "65",
-    "city": "90",
-    "area": "08",
+    "code": "430582",
+    "name": "邵东市",
+    "province": "43",
+    "city": "05",
+    "area": "82",
     "town": 0
   },
   {
-    "code": "659007",
-    "name": "双河市",
-    "province": "65",
-    "city": "90",
-    "area": "07",
+    "code": "411603",
+    "name": "淮阳区",
+    "province": "41",
+    "city": "16",
+    "area": "03",
     "town": 0
   },
   {
-    "code": "659005",
-    "name": "北屯市",
-    "province": "65",
-    "city": "90",
-    "area": "05",
+    "code": "361104",
+    "name": "广信区",
+    "province": "36",
+    "city": "11",
+    "area": "04",
+    "town": 0
+  },
+  {
+    "code": "341882",
+    "name": "广德市",
+    "province": "34",
+    "city": "18",
+    "area": "82",
+    "town": 0
+  },
+  {
+    "code": "330383",
+    "name": "龙港市",
+    "province": "33",
+    "city": "03",
+    "area": "83",
     "town": 0
   },
   {
@@ -37,30 +53,6 @@
     "province": "45",
     "city": "10",
     "area": "03",
-    "town": 0
-  },
-  {
-    "code": "370117",
-    "name": "钢城区",
-    "province": "37",
-    "city": "01",
-    "area": "17",
-    "town": 0
-  },
-  {
-    "code": "370116",
-    "name": "莱芜区",
-    "province": "37",
-    "city": "01",
-    "area": "16",
-    "town": 0
-  },
-  {
-    "code": "350527",
-    "name": "金门县",
-    "province": "35",
-    "city": "05",
-    "area": "27",
     "town": 0
   },
   {
