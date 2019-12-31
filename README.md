@@ -7,7 +7,7 @@
 
 来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
-- [中华人民共和国行政区划代码，更新时间：2019-11-25](http://www.mca.gov.cn/article/sj/xzqh/2019)  
+- [中华人民共和国行政区划代码，更新时间：2019-12-24](http://www.mca.gov.cn/article/sj/xzqh/2019)  
 - [统计用区划和城乡划分代码，更新时间：2019-01-31](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 数据更新 Diff
