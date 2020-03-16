@@ -12,7 +12,7 @@
 
 ### 数据更新 Diff
 
-- [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/85cde25)
+- [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/eacab73)
 - [数据更新 2019-12-24](https://github.com/uiwjs/province-city-china/commit/85cde25)
 - [数据更新 2019-11-25](https://github.com/uiwjs/province-city-china/commit/d001be0)
 - [数据更新 2019-11-05](https://github.com/uiwjs/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
