@@ -104,7 +104,7 @@ const city = require('province-city-china/dist/city.json');
 
 [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
 
-```json
+```js
 [
   {
     "code": "110000",
@@ -114,6 +114,7 @@ const city = require('province-city-china/dist/city.json');
     "area": 0,
     "town": 0
   },
+  // ...
 ]
 ```
 
@@ -121,7 +122,7 @@ const city = require('province-city-china/dist/city.json');
 
 [level.json](./dist/level.json)
 
-```json
+```js
 [
   {
     "code": "420000",
@@ -155,7 +156,7 @@ const city = require('province-city-china/dist/city.json');
 
 [province.json](./dist/province.json) | [province.csv](./dist/province.csv)
 
-```json
+```js
 [
   {
     "code": "110000",
@@ -175,7 +176,7 @@ const city = require('province-city-china/dist/city.json');
 
 [city.json](./dist/city.json) | [city.csv](./dist/city.csv)
 
-```json
+```js
 [
   {
     "code": "130100",
@@ -191,7 +192,7 @@ const city = require('province-city-china/dist/city.json');
 
 [area.json](./dist/area.json) | [area.csv](./dist/area.csv)
 
-```json
+```js
 [
   {
     "code": "110101",
@@ -208,7 +209,7 @@ const city = require('province-city-china/dist/city.json');
 
 [town.json](./dist/town.json) | [town.csv](./dist/town.csv)
 
-```json
+```js
 [
   {
     "code": "110101001000",
@@ -226,7 +227,7 @@ const city = require('province-city-china/dist/city.json');
 
 [cityNotFoundTown.json](./dist/cityNotFoundTown.json)
 
-```json
+```js
 [
   {
     "code": "659010",
