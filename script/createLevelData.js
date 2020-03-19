@@ -11,7 +11,7 @@ const area = require('../dist/area.json');
   const data = province.map(p => {
     // 获取省下面的市的数据
     let cityData = city.filter(c => c.province === p.province).map(item => {
-      item.children = area.filter(a => a.city === item.city);
+      item.children = area.filter(a => a.city === item.city && a.province === item.province);
       return item;
     });
     // 如果没有市数据，获取区的数据 如：北京，上海
