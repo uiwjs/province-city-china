@@ -117,7 +117,128 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
-**省/地/县/乡层级数据**
+### 省/地/县/乡层级数据
+
+[level.json](./dist/level.json)
+
+```json
+[
+  {
+    "code": "420000",
+    "name": "湖北省",
+    "province": "42",
+    "children": [
+      {
+        "code": "420100",
+        "name": "武汉市",
+        "province": "42",
+        "city": "01",
+        "children": [
+          {
+            "code": "420102",
+            "name": "江岸区",
+            "province": "42",
+            "city": "01",
+            "area": "02"
+          },
+          // ...
+        ]
+      }
+      // ...
+    ]
+  }
+  // ...
+]
+```
+
+### 省级(省/直辖市/特别行政区)
+
+[province.json](./dist/province.json) | [province.csv](./dist/province.csv)
+
+```json
+[
+  {
+    "code": "110000",
+    "name": "北京市",
+    "province": "11"
+  },
+  {
+    "code": "120000",
+    "name": "天津市",
+    "province": "12"
+  },
+  // ...
+]
+```
+
+### 地级(城市)
+
+[city.json](./dist/city.json) | [city.csv](./dist/city.csv)
+
+```json
+[
+  {
+    "code": "130100",
+    "name": "石家庄市",
+    "province": "13",
+    "city": "01"
+  },
+  // ...
+]
+```
+
+### 县级(区县)
+
+[area.json](./dist/area.json) | [area.csv](./dist/area.csv)
+
+```json
+[
+  {
+    "code": "110101",
+    "name": "东城区",
+    "province": "11",
+    "city": "01",
+    "area": "01"
+  },
+  // ...
+]
+```
+
+### 乡级(乡镇/街)
+
+[town.json](./dist/town.json) | [town.csv](./dist/town.csv)
+
+```json
+[
+  {
+    "code": "110101001000",
+    "name": "东华门街道",
+    "province": "11",
+    "city": "01",
+    "area": "01",
+    "town": "001000"
+  },
+  // ...
+]
+```
+
+### 县市区没有乡级数据
+
+[cityNotFoundTown.json](./dist/cityNotFoundTown.json)
+
+```json
+[
+  {
+    "code": "659010",
+    "name": "胡杨河市",
+    "province": "65",
+    "city": "90",
+    "area": "10",
+    "town": 0
+  },
+  // ...
+]
+```
 
 ## 参考链接
 
