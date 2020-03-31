@@ -1,17 +1,19 @@
 中华人民共和国行政区划代码
 ---
 
-[![](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) [![](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) [![](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) [![](https://img.shields.io/github/release/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg) [![](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
+[![Github Issues](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) [![Github Forks](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) [![Github Stars](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) [![Github Release](https://img.shields.io/github/release/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg) [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
 
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
 
 来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
-- [中华人民共和国行政区划代码，更新时间：2019-11-25](http://www.mca.gov.cn/article/sj/xzqh/2019)  
-- [统计用区划和城乡划分代码，更新时间：2019-01-31](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [中华人民共和国行政区划代码，更新时间：2020-03-06](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
+- [统计用区划和城乡划分代码，更新时间：2020-02-25](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 数据更新 Diff
 
+- [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/eacab73)
+- [数据更新 2019-12-24](https://github.com/uiwjs/province-city-china/commit/85cde25)
 - [数据更新 2019-11-25](https://github.com/uiwjs/province-city-china/commit/d001be0)
 - [数据更新 2019-11-05](https://github.com/uiwjs/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
 - [数据更新 2019-06-21](https://github.com/uiwjs/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
@@ -102,7 +104,7 @@ const city = require('province-city-china/dist/city.json');
 
 [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
 
-```json
+```js
 [
   {
     "code": "110000",
@@ -112,11 +114,141 @@ const city = require('province-city-china/dist/city.json');
     "area": 0,
     "town": 0
   },
+  // ...
 ]
 ```
 
-**省/地/县/乡层级数据**
+### 省/地/县/乡层级数据
 
+[level.json](./dist/level.json)
+
+```js
+[
+  {
+    "code": "420000",
+    "name": "湖北省",
+    "province": "42",
+    "children": [
+      {
+        "code": "420100",
+        "name": "武汉市",
+        "province": "42",
+        "city": "01",
+        "children": [
+          {
+            "code": "420102",
+            "name": "江岸区",
+            "province": "42",
+            "city": "01",
+            "area": "02"
+          },
+          // ...
+        ]
+      }
+      // ...
+    ]
+  }
+  // ...
+]
+```
+
+### 省级(省/直辖市/特别行政区)
+
+[province.json](./dist/province.json) | [province.csv](./dist/province.csv)
+
+```js
+[
+  {
+    "code": "110000",
+    "name": "北京市",
+    "province": "11"
+  },
+  {
+    "code": "120000",
+    "name": "天津市",
+    "province": "12"
+  },
+  // ...
+]
+```
+
+### 地级(城市)
+
+[city.json](./dist/city.json) | [city.csv](./dist/city.csv)
+
+```js
+[
+  {
+    "code": "130100",
+    "name": "石家庄市",
+    "province": "13",
+    "city": "01"
+  },
+  // ...
+]
+```
+
+### 县级(区县)
+
+[area.json](./dist/area.json) | [area.csv](./dist/area.csv)
+
+```js
+[
+  {
+    "code": "110101",
+    "name": "东城区",
+    "province": "11",
+    "city": "01",
+    "area": "01"
+  },
+  // ...
+]
+```
+
+### 乡级(乡镇/街)
+
+[town.json](./dist/town.json) | [town.csv](./dist/town.csv)
+
+```js
+[
+  {
+    "code": "110101001000",
+    "name": "东华门街道",
+    "province": "11",
+    "city": "01",
+    "area": "01",
+    "town": "001000"
+  },
+  // ...
+]
+```
+
+### 县市区没有乡级数据
+
+[cityNotFoundTown.json](./dist/cityNotFoundTown.json)
+
+```js
+[
+  {
+    "code": "659010",
+    "name": "胡杨河市",
+    "province": "65",
+    "city": "90",
+    "area": "10",
+    "town": 0
+  },
+  // ...
+]
+```
+
+## 参考链接
+
+- [国家统计局 - 行政区划代码](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [民政部 - 中华人民共和国行政区划代码](http://www.mca.gov.cn/article/sj/xzqh)
+- [维基百科 - 中华人民共和国行政区划](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92)
+- [维基百科 - 中华人民共和国行政区划代码](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92%E4%BB%A3%E7%A0%81)
+- [统计上使用的县以下行政区划代码编制规则](http://www.mca.gov.cn/article/sj/xzqh/1980/201507/20150715854849.shtml)
+- [民政统计代码编制规则](http://www.mca.gov.cn/article/sj/xzqh/1980/201507/20150715854848.shtml)
 
 ## License
 

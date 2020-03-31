@@ -1,5 +1,13 @@
 [
   {
+    "code": "659010",
+    "name": "胡杨河市",
+    "province": "65",
+    "city": "90",
+    "area": "10",
+    "town": 0
+  },
+  {
     "code": "659009",
     "name": "昆玉市",
     "province": "65",
@@ -32,27 +40,43 @@
     "town": 0
   },
   {
-    "code": "451003",
-    "name": "田阳区",
+    "code": "652902",
+    "name": "库车市",
+    "province": "65",
+    "city": "29",
+    "area": "02",
+    "town": 0
+  },
+  {
+    "code": "630106",
+    "name": "湟中区",
+    "province": "63",
+    "city": "01",
+    "area": "06",
+    "town": 0
+  },
+  {
+    "code": "530481",
+    "name": "澄江市",
+    "province": "53",
+    "city": "04",
+    "area": "81",
+    "town": 0
+  },
+  {
+    "code": "451082",
+    "name": "平果市",
     "province": "45",
     "city": "10",
-    "area": "03",
+    "area": "82",
     "town": 0
   },
   {
-    "code": "370117",
-    "name": "钢城区",
-    "province": "37",
+    "code": "360113",
+    "name": "红谷滩区",
+    "province": "36",
     "city": "01",
-    "area": "17",
-    "town": 0
-  },
-  {
-    "code": "370116",
-    "name": "莱芜区",
-    "province": "37",
-    "city": "01",
-    "area": "16",
+    "area": "13",
     "town": 0
   },
   {
@@ -61,6 +85,78 @@
     "province": "35",
     "city": "05",
     "area": "27",
+    "town": 0
+  },
+  {
+    "code": "340281",
+    "name": "无为市",
+    "province": "34",
+    "city": "02",
+    "area": "81",
+    "town": 0
+  },
+  {
+    "code": "140703",
+    "name": "太谷区",
+    "province": "14",
+    "city": "07",
+    "area": "03",
+    "town": 0
+  },
+  {
+    "code": "510981",
+    "name": "射洪市",
+    "province": "51",
+    "city": "09",
+    "area": "81",
+    "town": 0
+  },
+  {
+    "code": "430582",
+    "name": "邵东市",
+    "province": "43",
+    "city": "05",
+    "area": "82",
+    "town": 0
+  },
+  {
+    "code": "411603",
+    "name": "淮阳区",
+    "province": "41",
+    "city": "16",
+    "area": "03",
+    "town": 0
+  },
+  {
+    "code": "361104",
+    "name": "广信区",
+    "province": "36",
+    "city": "11",
+    "area": "04",
+    "town": 0
+  },
+  {
+    "code": "341882",
+    "name": "广德市",
+    "province": "34",
+    "city": "18",
+    "area": "82",
+    "town": 0
+  },
+  {
+    "code": "330383",
+    "name": "龙港市",
+    "province": "33",
+    "city": "03",
+    "area": "83",
+    "town": 0
+  },
+  {
+    "code": "451003",
+    "name": "田阳区",
+    "province": "45",
+    "city": "10",
+    "area": "03",
     "town": 0
   },
   {
