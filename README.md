@@ -7,7 +7,9 @@
 
 来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
-- [中华人民共和国行政区划代码，更新时间：2020-03-06](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
+> ⚠️ 2020-03-30 新增一个街道，街道数据暂未更新。
+
+- [中华人民共和国行政区划代码，更新时间：2020-03-30](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
 - [统计用区划和城乡划分代码，更新时间：2020-02-25](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 数据更新 Diff
