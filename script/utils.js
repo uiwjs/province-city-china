@@ -48,7 +48,7 @@ exports.getProvinceCity = () => {
   return new Promise(async (resolve, reject) => {
     try {
       console.log('=> 获取省市区数据')
-      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2020/2020/202003301019.html');
+      const res = await request.get('http://www.mca.gov.cn///article/sj/xzqh/2020/2020/2020072805001.html');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
