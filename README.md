@@ -14,7 +14,7 @@
 
 ### 数据更新 Diff
 
-- [数据更新 2020-07-28](https://github.com/uiwjs/province-city-china/commit/f511f4b)
+- [数据更新 2020-07-28](https://github.com/uiwjs/province-city-china/commit/f511f4b) 县以上行政区【没变】，县以下发生变更(等待更新)
 - [数据更新 2020-03-30](https://github.com/uiwjs/province-city-china/commit/14cb636)
 - [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/eacab73)
 - [数据更新 2019-12-24](https://github.com/uiwjs/province-city-china/commit/85cde25)
