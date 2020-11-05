@@ -11,6 +11,7 @@
 
 - [中华人民共和国行政区划代码，更新时间：2020-09-29](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
 - [统计用区划和城乡划分代码，更新时间：2020-02-25](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [国家和地区代码列表(下载)，更新时间：2011-12-06](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html)
 
 ### 数据更新 Diff
 
