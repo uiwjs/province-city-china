@@ -14,7 +14,7 @@
 
 ### 数据更新 Diff
 
-- [数据更新 2020/11/05](https://github.com/uiwjs/province-city-china/commit/b6d7dbe) 
+- [数据更新 2020/11/05](https://github.com/uiwjs/province-city-china/compare/v6.0.3...v6.1.1) 
 - [数据更新 2020-07-28](https://github.com/uiwjs/province-city-china/commit/f511f4b) 县以上行政区【没变】，县以下发生变更(等待更新)
 - [数据更新 2020-03-30](https://github.com/uiwjs/province-city-china/commit/14cb636)
 - [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/eacab73)
@@ -91,7 +91,7 @@ const city = require('province-city-china/dist/city.json');
 
 | 文件列表 | JSON | CSV | SQL | CDN |
 | ---- | ---- | ---- | ---- |  ---- |
-| 国家和地区代码列表 | - | [country.csv](./dist/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) |
+| 国家和地区代码列表 | [country.json](./dist/country.json) | [country.csv](./dist/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) / [json](https://unpkg.com/province-city-china/dist/country.json) |
 | 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) | [data.sql](https://unpkg.com/province-city-china/dist/data.sql) / [csv](https://unpkg.com/province-city-china/dist/data.csv) / [json](https://unpkg.com/province-city-china/dist/data.json) |
 | 省/地/县/乡层级数据 | [level.json](./dist/level.json) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
 | 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) | [province.csv](./dist/province.csv) | - | [province.json](https://unpkg.com/province-city-china/dist/province.json) / [csv](https://unpkg.com/province-city-china/dist/province.csv) |
