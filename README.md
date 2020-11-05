@@ -124,7 +124,7 @@ const city = require('province-city-china/dist/city.json');
 
 ### 国家和地区代码列表
 
-[country.csv](./dist/country.csv) | [country.json](./dist/country.json)
+[country.json](./dist/country.json) | [country.csv](./dist/country.csv)
 
 <kbd>id=序号</kbd>、<kbd>cnname=中文简称</kbd>、<kbd>name=英文简称</kbd>、<kbd>fullname=英文全称</kbd>、<kbd>alpha2=两字母代码</kbd>、<kbd>alpha3=三字母代码</kbd>、<kbd>numeric=数字代码</kbd>
 
