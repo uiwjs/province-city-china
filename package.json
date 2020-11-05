@@ -51,6 +51,7 @@
   "license": "MIT",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.10",
     "fs-extra": "^7.0.1",
     "superagent": "^5.1.0",
     "superagent-charset": "^1.2.0"

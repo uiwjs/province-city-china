@@ -48,7 +48,7 @@ exports.getProvinceCity = () => {
   return new Promise(async (resolve, reject) => {
     try {
       console.log('=> 获取省市区数据')
-      const res = await request.get('http://www.mca.gov.cn///article/sj/xzqh/2020/2020/2020072805001.html');
+      const res = await request.get('http://www.mca.gov.cn//article/sj/xzqh/2020/2020/2020092500801.html');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
@@ -98,7 +98,7 @@ exports.getProvinceCity = () => {
 
 exports.save = async (filePath, data) => {
   filePath = path.join(process.cwd(), 'dist', filePath);
-  console.log('  ✔ 数据保存:', filePath.replace(process.cwd(), '').replace(new RegExp(`^${path.sep}`), ''));
+  console.log('  \x1b[32;1m✔\x1b[0m 数据保存:', filePath.replace(process.cwd(), '').replace(new RegExp(`^${path.sep}`), ''));
   await fs.outputFile(filePath, data);
 }
 
