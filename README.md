@@ -15,13 +15,13 @@
 ### 数据更新 Diff
 
 - [数据更新 2020/11/05](https://github.com/uiwjs/province-city-china/compare/v6.0.3...v6.1.1) 
-- [数据更新 2020-07-28](https://github.com/uiwjs/province-city-china/commit/f511f4b) 县以上行政区【没变】，县以下发生变更(等待更新)
-- [数据更新 2020-03-30](https://github.com/uiwjs/province-city-china/commit/14cb636)
-- [数据更新 2020-03-06](https://github.com/uiwjs/province-city-china/commit/eacab73)
-- [数据更新 2019-12-24](https://github.com/uiwjs/province-city-china/commit/85cde25)
-- [数据更新 2019-11-25](https://github.com/uiwjs/province-city-china/commit/d001be0)
-- [数据更新 2019-11-05](https://github.com/uiwjs/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
-- [数据更新 2019-06-21](https://github.com/uiwjs/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
+- [数据更新 2020/07/28](https://github.com/uiwjs/province-city-china/commit/f511f4b) 县以上行政区【没变】，县以下发生变更(等待更新)
+- [数据更新 2020/03/30](https://github.com/uiwjs/province-city-china/commit/14cb636)
+- [数据更新 2020/03/06](https://github.com/uiwjs/province-city-china/commit/eacab73)
+- [数据更新 2019/12/24](https://github.com/uiwjs/province-city-china/commit/85cde25)
+- [数据更新 2019/11/25](https://github.com/uiwjs/province-city-china/commit/d001be0)
+- [数据更新 2019/11/05](https://github.com/uiwjs/province-city-china/commit/5e9eeba854677018fcb7975dd460c86195b98ccc)
+- [数据更新 2019/06/21](https://github.com/uiwjs/province-city-china/commit/77408e62c1945cc3235f68f2b7c7f79be132bf99)
 
 ### 安装
 
