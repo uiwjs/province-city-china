@@ -26,7 +26,7 @@ const { getProvinceCity, filterValue, save, JSON2CSV } = require('./utils');
     console.log(`> <区>数据：${area.length}`);
     await save('area.json', JSON.stringify(area, null, 2));
     await save('area.csv', JSON2CSV(area));
-    console.log('> 省市区:数据生成完成！');
+    console.log('> \x1b[32;1m✔\x1b[0m 省市区:数据生成完成！');
 
     const cachePath = path.join(process.cwd(), '.cache', 'data.json');
     // 获取乡级(乡镇/街)数据，过滤，市，区代码为 0 的数据

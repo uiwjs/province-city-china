@@ -19,7 +19,7 @@ const csvPath = path.join(rootPath, 'town.csv');
     let itemData = null;
     try {
       if (cacheData.length === 0) {
-        console.log(' √ 数据获取完毕！');
+        console.log(' \x1b[32;1m✔\x1b[0m 数据获取完毕！');
         return;
       }
       itemData = cacheData[0];
@@ -57,7 +57,7 @@ const csvPath = path.join(rootPath, 'town.csv');
         cacheData.shift();
         await fs.outputFile(cachePath, JSON.stringify(cacheData, null, 2));
       }
-      console.log(`  ✔ 获取 ${data.length} 条数据！还剩下 ${cacheData.length} 数据需要获取！`);
+      console.log(`  \x1b[32;1m✔\x1b[0m 获取 ${data.length} 条数据！还剩下 ${cacheData.length} 数据需要获取！`);
       await sleep(2000);
       loop();
     } catch (error) {

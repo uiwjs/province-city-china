@@ -3,13 +3,13 @@
 
 [![Github Issues](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) [![Github Forks](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) [![Github Stars](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) [![Github Release](https://img.shields.io/github/release/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) ![](http://wabg.github.io/sb/status/no-dependencies.svg) [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
 
-中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。
+中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
-来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
+```
+数据更新时间：2020/11/05 10:17:39 GMT+0800 (中国标准时间)
+```
 
-> ⚠️ 2020-07-28 县以上行政区划代码没有发生变化，县以下区划发生变更(等待更新)。
-
-- [中华人民共和国行政区划代码，更新时间：2020-07-28](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
+- [中华人民共和国行政区划代码，更新时间：2020-09-29](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
 - [统计用区划和城乡划分代码，更新时间：2020-02-25](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 
 ### 数据更新 Diff
@@ -90,6 +90,7 @@ const city = require('province-city-china/dist/city.json');
 
 | 文件列表 | JSON | CSV | SQL | CDN |
 | ---- | ---- | ---- | ---- |  ---- |
+| 国家和地区代码列表 | - | [country.csv](./dist/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) |
 | 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) | [data.sql](https://unpkg.com/province-city-china/dist/data.sql) / [csv](https://unpkg.com/province-city-china/dist/data.csv) / [json](https://unpkg.com/province-city-china/dist/data.json) |
 | 省/地/县/乡层级数据 | [level.json](./dist/level.json) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
 | 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) | [province.csv](./dist/province.csv) | - | [province.json](https://unpkg.com/province-city-china/dist/province.json) / [csv](https://unpkg.com/province-city-china/dist/province.csv) |
@@ -103,6 +104,51 @@ const city = require('province-city-china/dist/city.json');
 - https://unpkg.com/province-city-china/dist/city.json
 - https://raw.githack.com/uiwjs/province-city-china/gh-pages/city.json
 - https://cdn.statically.io/gh/uiwjs/province-city-china/gh-pages/city.json
+
+```bash
+> <省市区>数据：3212
+  ✔ 数据保存: dist/data.json
+> <省>数据：34
+  ✔ 数据保存: dist/province.json
+  ✔ 数据保存: dist/province.csv
+> <市>数据：333
+  ✔ 数据保存: dist/city.json
+  ✔ 数据保存: dist/city.csv
+> <区>数据：2845
+  ✔ 数据保存: dist/area.json
+  ✔ 数据保存: dist/area.csv
+> 省市区:数据生成完成！
+```
+
+### 国家和地区代码列表
+
+[country.csv](./dist/country.csv)
+
+<kbd>id=序号</kbd>、<kbd>cnname=中文简称</kbd>、<kbd>name=英文简称</kbd>、<kbd>fullname=英文全称</kbd>、<kbd>alpha2=两字母代码</kbd>、<kbd>alpha3=三字母代码</kbd>、<kbd>numeric=数字代码</kbd>
+
+```js
+[
+  {
+    "id": 1,
+    "cnname": "阿富汗",
+    "name": "Afghanistan",
+    "fullname": "the Islamic Republic of Afghanistan",
+    "alpha2": "AF",
+    "alpha3": "AFG",
+    "town": 4
+  },
+  {
+    "id": 45,
+    "cnname": "中国",
+    "name": "China",
+    "fullname": "the People's Republic of China",
+    "alpha2": "CN",
+    "alpha3": "CHN",
+    "town": 156
+  }
+  // ...
+]
+```
 
 ### 总数据(省/地/县/乡)
 
