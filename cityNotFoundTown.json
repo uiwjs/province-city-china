@@ -96,14 +96,6 @@
     "town": 0
   },
   {
-    "code": "451082",
-    "name": "平果市",
-    "province": "45",
-    "city": "10",
-    "area": "82",
-    "town": 0
-  },
-  {
     "code": "450332",
     "name": "恭城瑶族自治县",
     "province": "45",
@@ -176,14 +168,6 @@
     "town": 0
   },
   {
-    "code": "340281",
-    "name": "无为市",
-    "province": "34",
-    "city": "02",
-    "area": "81",
-    "town": 0
-  },
-  {
     "code": "330212",
     "name": "鄞州区",
     "province": "33",
@@ -197,14 +181,6 @@
     "province": "22",
     "city": "01",
     "area": "84",
-    "town": 0
-  },
-  {
-    "code": "140703",
-    "name": "太谷区",
-    "province": "14",
-    "city": "07",
-    "area": "03",
     "town": 0
   },
   {
@@ -232,99 +208,11 @@
     "town": 0
   },
   {
-    "code": "659010",
-    "name": "胡杨河市",
-    "province": "65",
-    "city": "90",
-    "area": "10",
-    "town": 0
-  },
-  {
-    "code": "659009",
-    "name": "昆玉市",
-    "province": "65",
-    "city": "90",
-    "area": "09",
-    "town": 0
-  },
-  {
-    "code": "659008",
-    "name": "可克达拉市",
-    "province": "65",
-    "city": "90",
-    "area": "08",
-    "town": 0
-  },
-  {
-    "code": "659007",
-    "name": "双河市",
-    "province": "65",
-    "city": "90",
-    "area": "07",
-    "town": 0
-  },
-  {
-    "code": "659005",
-    "name": "北屯市",
-    "province": "65",
-    "city": "90",
-    "area": "05",
-    "town": 0
-  },
-  {
-    "code": "652902",
-    "name": "库车市",
-    "province": "65",
-    "city": "29",
-    "area": "02",
-    "town": 0
-  },
-  {
-    "code": "630106",
-    "name": "湟中区",
-    "province": "63",
-    "city": "01",
-    "area": "06",
-    "town": 0
-  },
-  {
-    "code": "530481",
-    "name": "澄江市",
-    "province": "53",
-    "city": "04",
-    "area": "81",
-    "town": 0
-  },
-  {
     "code": "451082",
     "name": "平果市",
     "province": "45",
     "city": "10",
     "area": "82",
-    "town": 0
-  },
-  {
-    "code": "360113",
-    "name": "红谷滩区",
-    "province": "36",
-    "city": "01",
-    "area": "13",
-    "town": 0
-  },
-  {
-    "code": "350527",
-    "name": "金门县",
-    "province": "35",
-    "city": "05",
-    "area": "27",
-    "town": 0
-  },
-  {
-    "code": "340281",
-    "name": "无为市",
-    "province": "34",
-    "city": "02",
-    "area": "81",
     "town": 0
   },
   {
@@ -456,14 +344,6 @@
     "town": 0
   },
   {
-    "code": "350527",
-    "name": "金门县",
-    "province": "35",
-    "city": "05",
-    "area": "27",
-    "town": 0
-  },
-  {
     "code": "370116",
     "name": "莱芜区",
     "province": "37",
@@ -477,38 +357,6 @@
     "province": "37",
     "city": "01",
     "area": "17",
-    "town": 0
-  },
-  {
-    "code": "659005",
-    "name": "北屯市",
-    "province": "65",
-    "city": "90",
-    "area": "05",
-    "town": 0
-  },
-  {
-    "code": "659007",
-    "name": "双河市",
-    "province": "65",
-    "city": "90",
-    "area": "07",
-    "town": 0
-  },
-  {
-    "code": "659008",
-    "name": "可克达拉市",
-    "province": "65",
-    "city": "90",
-    "area": "08",
-    "town": 0
-  },
-  {
-    "code": "659009",
-    "name": "昆玉市",
-    "province": "65",
-    "city": "90",
-    "area": "09",
     "town": 0
   }
 ]
