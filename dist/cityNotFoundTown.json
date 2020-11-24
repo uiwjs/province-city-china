@@ -1,5 +1,29 @@
 [
   {
+    "code": "632301",
+    "name": "同仁市",
+    "province": "63",
+    "city": "23",
+    "area": "01",
+    "town": 0
+  },
+  {
+    "code": "350527",
+    "name": "金门县",
+    "province": "35",
+    "city": "05",
+    "area": "27",
+    "town": 0
+  },
+  {
+    "code": "321202",
+    "name": "海陵区",
+    "province": "32",
+    "city": "12",
+    "area": "02",
+    "town": 0
+  },
+  {
     "code": "659010",
     "name": "胡杨河市",
     "province": "65",

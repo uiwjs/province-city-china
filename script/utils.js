@@ -12,7 +12,7 @@ require('superagent-charset')(request);
  */
 exports.getTown = function({ name, code, province, city }) {
   return new Promise(async (resolve, reject) => {
-    const url = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/${province}/${city}/${code}.html`;
+    const url = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2020/${province}/${city}/${code}.html`;
     try {
       const res = await request.get(url).buffer(true).charset('gb2312');
       if (!res || !res.text) return reject();
@@ -48,7 +48,7 @@ exports.getProvinceCity = () => {
   return new Promise(async (resolve, reject) => {
     try {
       console.log('=> 获取省市区数据')
-      const res = await request.get('http://www.mca.gov.cn//article/sj/xzqh/2020/2020/2020092500801.html');
+      const res = await request.get('http://www.mca.gov.cn/article/sj/xzqh/2020/2020/2020112010001.html');
       if (!res || !res.text) return resolve([]);
       const $ = cheerio.load(res.text);
       const data = [];
