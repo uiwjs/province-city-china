@@ -5,7 +5,7 @@
 npm install @province-city-china/data --save-dev
 ```
 
-[data.json](./dist/data.json) | [data.min.json](./dist/data.min.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
+[data.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.json) | [data.min.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.min.json) | [data.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.csv) | [data.sql](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.sql) 
 
 ```js
 [
@@ -21,7 +21,7 @@ npm install @province-city-china/data --save-dev
 ]
 ```
 
-压缩数据说明 [data.min.json](./dist/data.min.json)
+压缩数据说明 [data.min.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.min.json)
 
 ```js
 code: 'c'
@@ -35,7 +35,7 @@ town: 't'
 
 | 包名 | 说明  | 版本 |
 | ---- | ---- | ---- |
-| province-city-china | 包含所有包内容 | [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china) |
+| [province-city-china](https://github.com/uiwjs/province-city-china) | 包含所有包内容 | [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china) |
 | [@province-city-china/country](packages/country) | 国家和地区代码列表 | [![npm package](https://img.shields.io/npm/v/@province-city-china/country.svg)](https://www.npmjs.com/package/@province-city-china/country) |
 | [@province-city-china/data](packages/data) | 总数据(省/地/县/乡) | [![npm package](https://img.shields.io/npm/v/@province-city-china/data.svg)](https://www.npmjs.com/package/@province-city-china/data) |
 | [@province-city-china/province](packages/province) | 省级(省/直辖市/特别行政区) | [![npm package](https://img.shields.io/npm/v/@province-city-china/province.svg)](https://www.npmjs.com/package/@province-city-china/province) |
