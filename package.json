@@ -4,12 +4,13 @@
   "description": "An util to query china province, city and district data. 中华人民共和国国家标准 GB/T 2260 行政区划代码。",
   "main": "index.js",
   "scripts": {
-    "start": "npm run get && npm run get:town && npm run create:data:json:csv",
+    "start": "npm run get && npm run get:town && npm run create:data:json:csv && npm run compress",
     "get:town": "node script/getTown.js",
     "get": "npm run create:province:city && npm run create:level",
     "create:province:city": "node script/getProvinceCity.js",
     "create:level": "node script/createLevelData.js",
-    "create:data:json:csv": "node script/createDataCSVAndJSON.js"
+    "create:data:json:csv": "node script/createDataCSVAndJSON.js",
+    "compress": "node script/compress.js"
   },
   "keywords": [
     "province",

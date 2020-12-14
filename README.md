@@ -125,7 +125,7 @@ const city = require('province-city-china/dist/city.json');
 
 ### 国家和地区代码列表
 
-[country.json](./dist/country.json) | [country.csv](./dist/country.csv)
+[country.json](./dist/country.json) | [country.min.json](./dist/country.min.json) | [country.csv](./dist/country.csv)
 
 <kbd>id=序号</kbd>、<kbd>cnname=中文简称</kbd>、<kbd>name=英文简称</kbd>、<kbd>fullname=英文全称</kbd>、<kbd>alpha2=两字母代码</kbd>、<kbd>alpha3=三字母代码</kbd>、<kbd>numeric=数字代码</kbd>
 
@@ -153,9 +153,21 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [country.min.json](./dist/country.min.json)
+
+```js
+id: 'i'
+cnname: 'c'
+name: 'n'
+fullname: 'f'
+alpha2: 'a2'
+alpha3: 'a3'
+numeric: 'r'
+```
+
 ### 总数据(省/地/县/乡)
 
-[data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
+[data.json](./dist/data.json) | [data.min.json](./dist/data.min.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) 
 
 ```js
 [
@@ -171,9 +183,20 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [data.min.json](./dist/data.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+town: 't'
+```
+
 ### 省/地/县/乡层级数据
 
-[level.json](./dist/level.json)
+[level.json](./dist/level.json) | [level.min.json](./dist/level.min.json)
 
 ```js
 [
@@ -205,9 +228,20 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [level.min.json](./dist/level.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+children: 'd'
+```
+
 ### 省级(省/直辖市/特别行政区)
 
-[province.json](./dist/province.json) | [province.csv](./dist/province.csv)
+[province.json](./dist/province.json) | [province.min.json](./dist/province.min.json) | [province.csv](./dist/province.csv)
 
 ```js
 [
@@ -225,9 +259,20 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [level.min.json](./dist/level.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+children: 'd'
+```
+
 ### 地级(城市)
 
-[city.json](./dist/city.json) | [city.csv](./dist/city.csv)
+[city.json](./dist/city.json) | [city.min.json](./dist/city.min.json) | [city.csv](./dist/city.csv)
 
 ```js
 [
@@ -241,9 +286,18 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [city.min.json](./dist/city.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+```
+
 ### 县级(区县)
 
-[area.json](./dist/area.json) | [area.csv](./dist/area.csv)
+[area.json](./dist/area.json) | [area.min.json](./dist/area.min.json) | [area.csv](./dist/area.csv)
 
 ```js
 [
@@ -258,9 +312,19 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [city.min.json](./dist/city.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+```
+
 ### 乡级(乡镇/街)
 
-[town.json](./dist/town.json) | [town.csv](./dist/town.csv)
+[town.json](./dist/town.json) | [town.min.json](./dist/town.min.json) | [town.csv](./dist/town.csv)
 
 ```js
 [
@@ -276,9 +340,20 @@ const city = require('province-city-china/dist/city.json');
 ]
 ```
 
+压缩数据说明 [city.min.json](./dist/city.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+town: 't'
+```
+
 ### 县市区没有乡级数据
 
-[cityNotFoundTown.json](./dist/cityNotFoundTown.json)
+[cityNotFoundTown.json](./dist/cityNotFoundTown.json) | [cityNotFoundTown.min.json](./dist/cityNotFoundTown.min.json)
 
 ```js
 [
@@ -292,6 +367,17 @@ const city = require('province-city-china/dist/city.json');
   },
   // ...
 ]
+```
+
+压缩数据说明 [cityNotFoundTown.min.json](./dist/cityNotFoundTown.min.json)
+
+```js
+code: 'c'
+name: 'n'
+province: 'p'
+city: 'y'
+area: 'a'
+town: 't'
 ```
 
 ## 参考链接

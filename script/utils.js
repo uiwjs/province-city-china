@@ -171,3 +171,22 @@ exports.sleep = function(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * 压缩数据
+ */
+exports.compress = (data = [], format = {}, child = 'children') => {
+  return data.map((item) => {
+    const dt = {};
+    Object.keys(item).forEach((keyName) => {
+      if (format[keyName]) {
+        dt[format[keyName]] = item[keyName];
+      } else {
+        dt[keyName] = item[keyName];
+      }
+    });
+    if (item[child] && format[child]) {
+      dt[format[child]] = this.compress(item[child], format, child);
+    }
+    return dt;
+  });
+}
