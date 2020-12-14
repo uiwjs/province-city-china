@@ -1,0 +1,60 @@
+{
+  "name": "province-city-china",
+  "version": "7.1.0",
+  "description": "An util to query china province, city and district data. 中华人民共和国国家标准 GB/T 2260 行政区划代码。",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run get && npm run get:town && npm run create:data:json:csv && npm run compress",
+    "get:town": "node script/getTown.js",
+    "get": "npm run create:province:city && npm run create:level",
+    "create:province:city": "node script/getProvinceCity.js",
+    "create:level": "node script/createLevelData.js",
+    "create:data:json:csv": "node script/createDataCSVAndJSON.js",
+    "compress": "node script/compress.js"
+  },
+  "keywords": [
+    "province",
+    "china",
+    "cn",
+    "city",
+    "GB",
+    "GB2260",
+    "中国",
+    "中华人民共和国",
+    "行政区划",
+    "省市",
+    "省市区",
+    "联动",
+    "省份",
+    "城市",
+    "县市",
+    "区县",
+    "乡镇",
+    "街道",
+    "村委会",
+    "居委会",
+    "省级",
+    "地级",
+    "县级",
+    "乡级",
+    "村级"
+  ],
+  "files": [
+    "dist",
+    "data.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/province-city-china.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.10",
+    "fs-extra": "^9.0.1",
+    "superagent": "^5.1.0",
+    "superagent-charset": "^1.2.0"
+  }
+}
