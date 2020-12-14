@@ -93,14 +93,14 @@ const city = require('province-city-china/dist/city.json');
 
 | 文件列表 | JSON | CSV | SQL | CDN |
 | ---- | ---- | ---- | ---- |  ---- |
-| 国家和地区代码列表([#13](https://github.com/uiwjs/province-city-china/issues/13)) | [country.json](./dist/country.json) | [country.csv](./dist/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) / [json](https://unpkg.com/province-city-china/dist/country.json) |
-| 总数据(省/地/县/乡) | [data.json](./dist/data.json) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) | [data.sql](https://unpkg.com/province-city-china/dist/data.sql) / [csv](https://unpkg.com/province-city-china/dist/data.csv) / [json](https://unpkg.com/province-city-china/dist/data.json) |
-| 省/地/县/乡层级数据 | [level.json](./dist/level.json) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
-| 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) | [province.csv](./dist/province.csv) | - | [province.json](https://unpkg.com/province-city-china/dist/province.json) / [csv](https://unpkg.com/province-city-china/dist/province.csv) |
-| 地级(城市) | [city.json](./dist/city.json) | [city.csv](./dist/city.csv) | - | [city.json](https://unpkg.com/province-city-china/dist/city.json) / [csv](https://unpkg.com/province-city-china/dist/city.csv) |
-| 县级(区县) | [area.json](./dist/area.json) | [area.csv](./dist/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |
-| 乡级(乡镇/街) | [town.json](./dist/town.json) | [town.csv](./dist/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
-| 县市区没有乡级数据 | [cityNotFoundTown.json](./dist/cityNotFoundTown.json) | - | - | [cityNotFoundTown.json](https://unpkg.com/province-city-china/dist/cityNotFoundTown.json) |
+| 国家和地区代码列表([#13](https://github.com/uiwjs/province-city-china/issues/13)) | [country.json](./dist/country.json) ([min](./dist/country.min.json)) | [country.csv](./dist/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) / [json](https://unpkg.com/province-city-china/dist/country.json) |
+| 总数据(省/地/县/乡) | [data.json](./dist/data.json) ([min](./dist/data.min.json)) | [data.csv](./dist/data.csv) | [data.sql](./dist/data.sql) | [data.sql](https://unpkg.com/province-city-china/dist/data.sql) / [csv](https://unpkg.com/province-city-china/dist/data.csv) / [json](https://unpkg.com/province-city-china/dist/data.json) |
+| 省/地/县/乡层级数据 | [level.json](./dist/level.json) ([min](./dist/level.min.json)) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
+| 省级(省/直辖市/特别行政区) | [province.json](./dist/province.json) ([min](./dist/province.min.json)) | [province.csv](./dist/province.csv) | - | [province.json](https://unpkg.com/province-city-china/dist/province.json) / [csv](https://unpkg.com/province-city-china/dist/province.csv) |
+| 地级(城市) | [city.json](./dist/city.json) ([min](./dist/city.min.json)) | [city.csv](./dist/city.csv) | - | [city.json](https://unpkg.com/province-city-china/dist/city.json) / [csv](https://unpkg.com/province-city-china/dist/city.csv) |
+| 县级(区县) | [area.json](./dist/area.json) ([min](./dist/area.min.json)) | [area.csv](./dist/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |
+| 乡级(乡镇/街) | [town.json](./dist/town.json) ([min](./dist/town.min.json)) | [town.csv](./dist/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
+| 县市区没有乡级数据 | [cityNotFoundTown.json](./dist/cityNotFoundTown.json) ([min](./dist/cityNotFoundTown.min.json)) | - | - | [cityNotFoundTown.json](https://unpkg.com/province-city-china/dist/cityNotFoundTown.json) |
 
 更多 CDN 数据访问
 
