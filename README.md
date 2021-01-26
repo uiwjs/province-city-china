@@ -42,7 +42,7 @@ npm install province-city-china --save-dev
 | [@province-city-china/town](packages/town) | 乡级(乡镇/街) | [![npm package](https://img.shields.io/npm/v/@province-city-china/town.svg)](https://www.npmjs.com/package/@province-city-china/town) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/town) |
 | [@province-city-china/level](packages/level) | 总数据(省/地/县/乡)层级数据 | [![npm package](https://img.shields.io/npm/v/@province-city-china/level.svg)](https://www.npmjs.com/package/@province-city-china/level) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/level) |
 | [@province-city-china/utils](packages/utils) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/utils.svg)](https://www.npmjs.com/package/@province-city-china/utils) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/utils) |
-| [@province-city-china/types](packages/types) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/types) |
+| [@province-city-china/types](packages/types) | 类型文件 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | - |
 
 ### 使用
 
