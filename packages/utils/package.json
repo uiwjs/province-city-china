@@ -41,6 +41,6 @@
   "author": "Kenny Wong <wowohoo@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "@province-city-china/types": "7.1.2"
+    "@province-city-china/types": "7.1.3"
   }
 }
