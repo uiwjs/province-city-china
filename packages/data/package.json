@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "data.json",
     "data.min.json",
     "data.sql",

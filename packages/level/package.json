@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "level.json",
     "level.min.json"
   ],

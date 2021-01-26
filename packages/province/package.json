@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "province.json",
     "province.min.json",
     "province.csv"

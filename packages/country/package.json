@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "country.json",
     "country.min.json",
     "country.csv"

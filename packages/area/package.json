@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "area.json",
     "area.min.json",
     "area.csv"
