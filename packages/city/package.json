@@ -8,6 +8,7 @@
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "city.json",
     "city.min.json",
     "city.csv"
@@ -40,5 +41,8 @@
     "村级"
   ],
   "author": "Kenny Wong <wowohoo@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@province-city-china/types": "7.1.2"
+  }
 }

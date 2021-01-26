@@ -1,17 +1,14 @@
 {
-  "name": "@province-city-china/area",
+  "name": "@province-city-china/types",
   "version": "7.1.2",
   "description": "An util to query china province, city and district data. 中华人民共和国国家标准 GB/T 2260 行政区划代码。",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/uiwjs/province-city-china.git"
   },
   "files": [
-    "index.js",
-    "index.d.ts",
-    "area.json",
-    "area.min.json",
-    "area.csv"
+    "index.d.ts"
   ],
   "keywords": [
     "province",
@@ -41,8 +38,5 @@
     "村级"
   ],
   "author": "Kenny Wong <wowohoo@qq.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@province-city-china/types": "7.1.2"
-  }
+  "license": "MIT"
 }

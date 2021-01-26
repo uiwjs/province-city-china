@@ -7,7 +7,7 @@
  * @param {Number} code 县级(区县) code
  * @param {Number} level [0,1,2,3] 返回层级
  */
-function findAreaChild(arr, code, level) {
+exports.findAreaChild = function findAreaChild(arr, code, level) {
   return arr.filter(item => {
     // 四个直辖市 北京:11, 上海:31，天津:12，重庆市:50
     if (/(11|31|12|50)/.test(item.province)) {
@@ -24,7 +24,7 @@ function findAreaChild(arr, code, level) {
  * @param  {Array} arr 总数组
  * @return {Array}     [序列化后的层级总数组]
  */
-function findCityChild(arr, code, level) {
+exports.findCityChild = function findCityChild(arr, code, level) {
   return arr.filter(item => {
     if (/(70|81|82)/.test(item.province)) {
       return false;

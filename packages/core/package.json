@@ -42,6 +42,7 @@
   "files": [
     "dist",
     "data.js",
+    "index.d.ts",
     "index.js"
   ],
   "repository": {
@@ -50,6 +51,9 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@province-city-china/types": "7.1.2"
+  },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
     "csvtojson": "^2.0.10",

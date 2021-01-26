@@ -15,7 +15,6 @@ function copyToDir(source, filename, src = 'dist') {
   fs.copy(path.join(process.cwd(), 'README.md'), path.join(corePath, 'README.md'), { overwrite: true });
 
   copyToDir('utils', 'index.js', '');
-  copyToDir('utils', 'data.js', '');
 
   copyToDir('area', 'area.json');
   copyToDir('area', 'area.csv');
