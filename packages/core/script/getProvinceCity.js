@@ -17,7 +17,15 @@ const { getProvinceCity, filterValue, save, JSON2CSV } = require('./utils');
     await save('province.json', JSON.stringify(province, null, 2));
     await save('province.csv', JSON2CSV(province));
   
-    const city = filterValue(data.filter(m => m.city !== 0 && m.area === 0 && m.town === 0), ['area', 'town']).filter(m => m.city !== 0);
+    /**
+     * 湖北有四个市，不知道是放到 `省直辖县级行政区划` 下面还是直接放到 `湖北省` 下面，
+     * - 最后参考高德地图，放到 `湖北省` 下面
+     * - https://github.com/uiwjs/province-city-china/issues/18
+     * - `省直辖县级行政区划`比较特殊，下面没有区，直接是街道
+     */
+    const filterHubeiCity = data.filter(item => item.city === '90' && item.province === '42').map(item => item.code);
+
+    const city = filterValue(data.filter(m => (m.city !== 0 && m.area === 0 && m.town === 0) || filterHubeiCity.includes(m.code)), ['area', 'town']).filter(m => m.city !== 0);
     console.log(`> <市>数据：${city.length}`);
     await save('city.json', JSON.stringify(city, null, 2));
     await save('city.csv', JSON2CSV(city));
