@@ -1,6 +1,6 @@
 {
   "name": "@province-city-china/city",
-  "version": "7.1.3",
+  "version": "8.0.0",
   "description": "An util to query china province, city and district data. 中华人民共和国国家标准 GB/T 2260 行政区划代码。",
   "repository": {
     "type": "git",
