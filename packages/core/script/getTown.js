@@ -34,12 +34,11 @@ const csvPath = path.join(rootPath, 'town.csv');
       console.log(`> 获取 ${itemData.name}(${itemData.code} - ${itemData.province}/${itemData.city}/${itemData.area}) 数据`);
       const data = await getTown(itemData);
       itemData = null;
-
-      if (!fs.existsSync(csvPath) && data && data.length > 0) {
+      if (!fs.existsSync(csvPath) && data && Array.isArray(data) && data.length > 0) {
         await fs.outputFile(csvPath, Object.keys(data[0]).join(','));
       }
 
-      if (data.length > 0) {
+      if (data && Array.isArray(data) && data.length > 0) {
         let townJson = await fs.readJSON(jsonPath);
         townJson = townJson.concat(data);
         await fs.outputFile(jsonPath, JSON.stringify(townJson, null, 2));
