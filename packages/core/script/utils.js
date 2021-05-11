@@ -12,7 +12,7 @@ require('superagent-charset')(request);
  */
 exports.getTown = function({ name, code, province, city }) {
   return new Promise(async (resolve, reject) => {
-    const url = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2020/${province}/${city}/${code}.html`;
+    const url = `http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2020/${province}/${city ? city + '/': ''}${code}.html`;
     try {
       const res = await request.get(url).buffer(true).charset('gb2312');
       if (!res || !res.text) return reject();
