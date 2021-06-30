@@ -404,6 +404,7 @@ town: 't'
 - [统计上使用的县以下行政区划代码编制规则](http://www.mca.gov.cn/article/sj/xzqh/1980/201507/20150715854849.shtml)
 - [民政统计代码编制规则](http://www.mca.gov.cn/article/sj/xzqh/1980/201507/20150715854848.shtml)
 - [国家和地区代码列表（下载）](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html)
+- [长途区号-行政区划对照表(修订稿)，更新时间：2010-01-15](http://www.gov.cn/gzdt/2010-01/15/content_1511043.htm)
 
 ## License
 
