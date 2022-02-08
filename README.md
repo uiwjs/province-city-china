@@ -15,6 +15,7 @@
 
 ### 数据更新 Diff
 
+- [数据更新 2022/02/08](https://github.com/uiwjs/province-city-china/compare/v8.0.0...v8.1.0) 
 - [数据更新 2021/05/11](https://github.com/uiwjs/province-city-china/compare/v7.1.3...v8.0.0) 
 - [数据更新 2020/11/24](https://github.com/uiwjs/province-city-china/compare/v6.1.1...v7.1.3) 
 - [数据更新 2020/11/05](https://github.com/uiwjs/province-city-china/compare/v6.0.3...v6.1.1) 
@@ -405,6 +406,12 @@ town: 't'
 - [民政统计代码编制规则](http://www.mca.gov.cn/article/sj/xzqh/1980/201507/20150715854848.shtml)
 - [国家和地区代码列表（下载）](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html)
 - [长途区号-行政区划对照表(修订稿)，更新时间：2010-01-15](http://www.gov.cn/gzdt/2010-01/15/content_1511043.htm)
+
+## Contributors
+
+<a href="https://github.com/uiwjs/province-city-china/graphs/contributors">
+  <img src="https://uiwjs.github.io/province-city-china/CONTRIBUTORS.svg" />
+</a>
 
 ## License
 
