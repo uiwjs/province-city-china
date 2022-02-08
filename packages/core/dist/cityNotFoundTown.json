@@ -1,5 +1,29 @@
 [
   {
+    "code": "340211",
+    "name": "繁昌区",
+    "province": "34",
+    "city": "02",
+    "area": "11",
+    "town": 0
+  },
+  {
+    "code": "340210",
+    "name": "湾沚区",
+    "province": "34",
+    "city": "02",
+    "area": "10",
+    "town": 0
+  },
+  {
+    "code": "340209",
+    "name": "弋江区",
+    "province": "34",
+    "city": "02",
+    "area": "09",
+    "town": 0
+  },
+  {
     "code": "632301",
     "name": "同仁市",
     "province": "63",
