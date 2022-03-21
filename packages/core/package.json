@@ -59,7 +59,7 @@
   "devDependencies": {
     "cheerio": "1.0.0-rc.10",
     "csvtojson": "2.0.10",
-    "fs-extra": "9.1.0",
+    "fs-extra": "10.0.1",
     "superagent": "5.3.1",
     "superagent-charset": "1.2.0"
   }
