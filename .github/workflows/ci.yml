@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy province-city-china
+name: CI
 on:
   push:
     branches:
@@ -8,8 +8,17 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - run: npm i markdown-to-html-cli -g
-      - run: markdown-to-html --output ./packages/core/dist/index.html --favicon 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇨🇳</text></svg>'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: packages/core/README.md
+          output: ./packages/core/dist/index.htm
+          github-corners: https://github.com/uiwjs/province-city-china
+          favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇨🇳</text></svg>
 
       - name: Generate Contributors Images
         uses: jaywcjlove/github-action-contributors@main
@@ -18,8 +27,61 @@ jobs:
           output: ./packages/core/dist/CONTRIBUTORS.svg
           avatarSize: 42
 
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@v1.3.6
+        with:
+          package-path: ./packages/core/package.json
+
+      - name: get tag version
+        id: tag_version
+        uses: jaywcjlove/changelog-generator@v1.5.0
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          commit_message: ${{steps.tag_version.outputs.tag}} ${{ github.event.head_commit.message }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./packages/core/dist
+
+      - name: Generate Changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@v1.5.0
+        with:
+          head-ref: ${{steps.create_tag.outputs.version}}
+          filter-author: (renovate-bot|Renovate Bot)
+          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        if: steps.create_tag.outputs.successful
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: ${{ steps.create_tag.outputs.version }}
+          tag: ${{ steps.create_tag.outputs.version }}
+          body: |
+            [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/province-city-china@${{steps.changelog.outputs.version}}/file/README.md)
+            
+            Documentation ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/uiwjs/province-city-china/${{ steps.changelog.outputs.gh-pages-short-hash }}/index.html  
+            Comparing Changes: ${{ steps.changelog.outputs.compareurl }}  
+
+            ```shell
+            npm i province-city-china@${{steps.create_tag.outputs.versionNumber}}
+            ```
+
+            ${{ steps.changelog.outputs.changelog }}
+
+
+            | 包名 | 说明  | 版本 | 大小 |
+            | ---- | ---- | ---- | ---- |
+            | [province-city-china](https://github.com/uiwjs/province-city-china) | 包含所有包内容 | [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china) | - |
+            | [@province-city-china/country](https://github.com/uiwjs/province-city-china/tree/master/packages/country) | 国家和地区代码列表 | [![npm package](https://img.shields.io/npm/v/@province-city-china/country.svg)](https://www.npmjs.com/package/@province-city-china/country) |![](https://img.shields.io/bundlephobia/min/@province-city-china/country) |
+            | [@province-city-china/data](https://github.com/uiwjs/province-city-china/tree/master/packages/data) | 总数据(省/地/县/乡) | [![npm package](https://img.shields.io/npm/v/@province-city-china/data.svg)](https://www.npmjs.com/package/@province-city-china/data) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/data) |
+            | [@province-city-china/province](https://github.com/uiwjs/province-city-china/tree/master/packages/province) | 省级(省/直辖市/特别行政区) | [![npm package](https://img.shields.io/npm/v/@province-city-china/province.svg)](https://www.npmjs.com/package/@province-city-china/province) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/province) |
+            | [@province-city-china/city](https://github.com/uiwjs/province-city-china/tree/master/packages/city) | 地级(城市) | [![npm package](https://img.shields.io/npm/v/@province-city-china/city.svg)](https://www.npmjs.com/package/@province-city-china/city) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/city) |
+            | [@province-city-china/area](https://github.com/uiwjs/province-city-china/tree/master/packages/area) | 县级(区县) | [![npm package](https://img.shields.io/npm/v/@province-city-china/area.svg)](https://www.npmjs.com/package/@province-city-china/area) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/area) |
+            | [@province-city-china/town](https://github.com/uiwjs/province-city-china/tree/master/packages/town) | 乡级(乡镇/街) | [![npm package](https://img.shields.io/npm/v/@province-city-china/town.svg)](https://www.npmjs.com/package/@province-city-china/town) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/town) |
+            | [@province-city-china/level](https://github.com/uiwjs/province-city-china/tree/master/packages/level) | 总数据(省/地/县/乡)层级数据 | [![npm package](https://img.shields.io/npm/v/@province-city-china/level.svg)](https://www.npmjs.com/package/@province-city-china/level) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/level) |
+            | [@province-city-china/utils](https://github.com/uiwjs/province-city-china/tree/master/packages/utils) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/utils.svg)](https://www.npmjs.com/package/@province-city-china/utils) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/utils) |
+            | [@province-city-china/types](https://github.com/uiwjs/province-city-china/tree/master/packages/types) | 类型文件 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | - |
