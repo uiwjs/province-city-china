@@ -34,6 +34,14 @@ require('superagent-charset')(request);
     await fs.writeFile('./dist/hongkong.json', JSON.stringify(data, null, 2));
     console.log('  \x1b[32;1m✔\x1b[0m 获取香港 <区> 数据: ./dist/hongkong.json');
 
+    // -----> 保存 hongkong.csv 数据
+    let csvData = 'code, name, province, city, area\n';
+    [...data].forEach(dt => {
+      csvData += ['code', 'name', 'province', 'city', 'area'].map(name => dt[name] || '').join(',') + '\n';
+    });
+    await fs.outputFile('./dist/hongkong.csv', csvData.replace(/\n$/, ''));
+    console.log('  \x1b[32;1m✔\x1b[0m 生成香港 <区> CSV 数据: ./dist/hongkong.csv');
+
     data = [];
     const resultMacau = await request.get(macauurl).buffer(true);
     if (resultMacau.statusCode !== 200 || !resultMacau.body || !Array.isArray(resultMacau.body.features)) {
@@ -52,7 +60,15 @@ require('superagent-charset')(request);
       }
     })
     await fs.writeFile('./dist/macau.json', JSON.stringify(data, null, 2));
-    console.log('  \x1b[32;1m✔\x1b[0m 获取香港 <区> 数据: ./dist/macau.json');
+    console.log('  \x1b[32;1m✔\x1b[0m 获取澳门 <区> 数据: ./dist/macau.json');
+
+    // -----> 保存 macau.csv 数据
+    csvData = 'code, name, province, city, area\n';
+    [...data].forEach(dt => {
+      csvData += ['code', 'name', 'province', 'city', 'area'].map(name => dt[name] || '').join(',') + '\n';
+    });
+    await fs.outputFile('./dist/macau.csv', csvData.replace(/\n$/, ''));
+    console.log('  \x1b[32;1m✔\x1b[0m 生成澳门 <区> CSV 数据: ./dist/macau.csv');
 
   } catch (error) {
     console.log(`ERR:获取<香港>数据[]:`, error);

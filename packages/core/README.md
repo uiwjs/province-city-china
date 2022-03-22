@@ -119,7 +119,7 @@ const city = require('province-city-china/dist/city.json');
 | 县级(区县) | [area.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.min.json)) | [area.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |
 | 乡级(乡镇/街) | [town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.min.json)) | [town.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
 | 县市区没有乡级数据 | [not-found-town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.min.json)) | - | - | [not-found-town.json](https://unpkg.com/province-city-china/dist/not-found-town.json) |
-| 香港澳门<区>数据 | [hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) <br> [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)  | - | - | [hongkong.json](https://unpkg.com/province-city-china/dist/hongkong.json) <br> [macau.json](https://unpkg.com/province-city-china/dist/macau.json) |
+| 香港澳门<区>数据 | [hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) <br> [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)  | [hongkong.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.csv) / [macau.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.csv) | - | [hongkong.json](https://unpkg.com/province-city-china/dist/hongkong.json) ([csv](https://unpkg.com/province-city-china/dist/hongkong.csv)) <br> [macau.json](https://unpkg.com/province-city-china/dist/macau.json) ([csv](https://unpkg.com/province-city-china/dist/macau.csv)) |
 | 国内长途电话区号 | [district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | [district-code.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.csv) | - | [district-code.json](https://unpkg.com/province-city-china/dist/district-code.json) / [csv](https://unpkg.com/province-city-china/dist/district-code.csv) |
 
 更多 CDN 数据访问
@@ -413,7 +413,7 @@ town: 't'
 
 ### 香港澳门<区>数据
 
-[hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) | [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)
+[hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) | [hongkong.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.csv) | [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json) | [macau.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.csv)
 
 ```js
 [
