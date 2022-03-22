@@ -47,6 +47,7 @@ npm install province-city-china --save-dev
 | [@province-city-china/level](https://github.com/uiwjs/province-city-china/tree/master/packages/level) | 总数据(省/地/县/乡)层级数据 | [![npm package](https://img.shields.io/npm/v/@province-city-china/level.svg)](https://www.npmjs.com/package/@province-city-china/level) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/level) |
 | [@province-city-china/utils](https://github.com/uiwjs/province-city-china/tree/master/packages/utils) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/utils.svg)](https://www.npmjs.com/package/@province-city-china/utils) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/utils) |
 | [@province-city-china/types](https://github.com/uiwjs/province-city-china/tree/master/packages/types) | 类型文件 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | - |
+| [@province-city-china/district-code](https://github.com/uiwjs/province-city-china/tree/master/packages/district-code) | 国内长途电话区号 | [![npm package](https://img.shields.io/npm/v/@province-city-china/district-code.svg)](https://www.npmjs.com/package/@province-city-china/district-code) | - |
 
 ### 使用
 
@@ -119,6 +120,7 @@ const city = require('province-city-china/dist/city.json');
 | 乡级(乡镇/街) | [town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.min.json)) | [town.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
 | 县市区没有乡级数据 | [not-found-town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.min.json)) | - | - | [not-found-town.json](https://unpkg.com/province-city-china/dist/not-found-town.json) |
 | 香港澳门<区>数据 | [hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) <br> [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)  | - | - | [hongkong.json](https://unpkg.com/province-city-china/dist/hongkong.json) <br> [macau.json](https://unpkg.com/province-city-china/dist/macau.json) |
+| 国内长途电话区号 | [district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | - | - | [district-code.json](https://unpkg.com/province-city-china/dist/district-code.json) |
 
 更多 CDN 数据访问
 
@@ -426,6 +428,16 @@ town: 't'
 ]
 ```
 
+### 国内长途电话区号
+
+[district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json)
+
+```js
+[
+  { "name": "北京市", "code": "010" },
+  // ...
+]
+```
 
 ## 脚本获取数据说明
 
