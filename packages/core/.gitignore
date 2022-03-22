@@ -6,7 +6,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-README.md
 
 # IDE Specific
 nbproject
@@ -31,3 +30,4 @@ tmp
 .changelog
 .nyc_output/
 .eslintcache
+~*.*
