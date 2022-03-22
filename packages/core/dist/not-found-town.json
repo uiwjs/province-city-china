@@ -1,0 +1,2095 @@
+[
+  {
+    "code": "650201",
+    "name": "市辖区",
+    "province": "65",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "650101",
+    "name": "市辖区",
+    "province": "65",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "640501",
+    "name": "市辖区",
+    "province": "64",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "640401",
+    "name": "市辖区",
+    "province": "64",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "640301",
+    "name": "市辖区",
+    "province": "64",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "640201",
+    "name": "市辖区",
+    "province": "64",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "640101",
+    "name": "市辖区",
+    "province": "64",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "630101",
+    "name": "市辖区",
+    "province": "63",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "621201",
+    "name": "市辖区",
+    "province": "62",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "621101",
+    "name": "市辖区",
+    "province": "62",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "621001",
+    "name": "市辖区",
+    "province": "62",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "620901",
+    "name": "市辖区",
+    "province": "62",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "620801",
+    "name": "市辖区",
+    "province": "62",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "620701",
+    "name": "市辖区",
+    "province": "62",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "620601",
+    "name": "市辖区",
+    "province": "62",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "620501",
+    "name": "市辖区",
+    "province": "62",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "620401",
+    "name": "市辖区",
+    "province": "62",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "620301",
+    "name": "市辖区",
+    "province": "62",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "620101",
+    "name": "市辖区",
+    "province": "62",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "611001",
+    "name": "市辖区",
+    "province": "61",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "610901",
+    "name": "市辖区",
+    "province": "61",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "610801",
+    "name": "市辖区",
+    "province": "61",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "610701",
+    "name": "市辖区",
+    "province": "61",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "610601",
+    "name": "市辖区",
+    "province": "61",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "610501",
+    "name": "市辖区",
+    "province": "61",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "610401",
+    "name": "市辖区",
+    "province": "61",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "610301",
+    "name": "市辖区",
+    "province": "61",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "610201",
+    "name": "市辖区",
+    "province": "61",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "610101",
+    "name": "市辖区",
+    "province": "61",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "540501",
+    "name": "市辖区",
+    "province": "54",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "540101",
+    "name": "市辖区",
+    "province": "54",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "530901",
+    "name": "市辖区",
+    "province": "53",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "530801",
+    "name": "市辖区",
+    "province": "53",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "530701",
+    "name": "市辖区",
+    "province": "53",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "530601",
+    "name": "市辖区",
+    "province": "53",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "530501",
+    "name": "市辖区",
+    "province": "53",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "530401",
+    "name": "市辖区",
+    "province": "53",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "530301",
+    "name": "市辖区",
+    "province": "53",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "530101",
+    "name": "市辖区",
+    "province": "53",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "520601",
+    "name": "市辖区",
+    "province": "52",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "520501",
+    "name": "市辖区",
+    "province": "52",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "520401",
+    "name": "市辖区",
+    "province": "52",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "520301",
+    "name": "市辖区",
+    "province": "52",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "520101",
+    "name": "市辖区",
+    "province": "52",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "512001",
+    "name": "市辖区",
+    "province": "51",
+    "city": "20",
+    "area": "01"
+  },
+  {
+    "code": "511901",
+    "name": "市辖区",
+    "province": "51",
+    "city": "19",
+    "area": "01"
+  },
+  {
+    "code": "511801",
+    "name": "市辖区",
+    "province": "51",
+    "city": "18",
+    "area": "01"
+  },
+  {
+    "code": "511701",
+    "name": "市辖区",
+    "province": "51",
+    "city": "17",
+    "area": "01"
+  },
+  {
+    "code": "511601",
+    "name": "市辖区",
+    "province": "51",
+    "city": "16",
+    "area": "01"
+  },
+  {
+    "code": "511501",
+    "name": "市辖区",
+    "province": "51",
+    "city": "15",
+    "area": "01"
+  },
+  {
+    "code": "511401",
+    "name": "市辖区",
+    "province": "51",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "511301",
+    "name": "市辖区",
+    "province": "51",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "511101",
+    "name": "市辖区",
+    "province": "51",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "511001",
+    "name": "市辖区",
+    "province": "51",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "510901",
+    "name": "市辖区",
+    "province": "51",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "510801",
+    "name": "市辖区",
+    "province": "51",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "510701",
+    "name": "市辖区",
+    "province": "51",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "510601",
+    "name": "市辖区",
+    "province": "51",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "510501",
+    "name": "市辖区",
+    "province": "51",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "510401",
+    "name": "市辖区",
+    "province": "51",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "510301",
+    "name": "市辖区",
+    "province": "51",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "510101",
+    "name": "市辖区",
+    "province": "51",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "460201",
+    "name": "市辖区",
+    "province": "46",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "460101",
+    "name": "市辖区",
+    "province": "46",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "451401",
+    "name": "市辖区",
+    "province": "45",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "451301",
+    "name": "市辖区",
+    "province": "45",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "451201",
+    "name": "市辖区",
+    "province": "45",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "451101",
+    "name": "市辖区",
+    "province": "45",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "451001",
+    "name": "市辖区",
+    "province": "45",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "450901",
+    "name": "市辖区",
+    "province": "45",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "450801",
+    "name": "市辖区",
+    "province": "45",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "450701",
+    "name": "市辖区",
+    "province": "45",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "450601",
+    "name": "市辖区",
+    "province": "45",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "450501",
+    "name": "市辖区",
+    "province": "45",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "450401",
+    "name": "市辖区",
+    "province": "45",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "450301",
+    "name": "市辖区",
+    "province": "45",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "450201",
+    "name": "市辖区",
+    "province": "45",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "450101",
+    "name": "市辖区",
+    "province": "45",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "445301",
+    "name": "市辖区",
+    "province": "44",
+    "city": "53",
+    "area": "01"
+  },
+  {
+    "code": "445201",
+    "name": "市辖区",
+    "province": "44",
+    "city": "52",
+    "area": "01"
+  },
+  {
+    "code": "445101",
+    "name": "市辖区",
+    "province": "44",
+    "city": "51",
+    "area": "01"
+  },
+  {
+    "code": "441801",
+    "name": "市辖区",
+    "province": "44",
+    "city": "18",
+    "area": "01"
+  },
+  {
+    "code": "441701",
+    "name": "市辖区",
+    "province": "44",
+    "city": "17",
+    "area": "01"
+  },
+  {
+    "code": "441601",
+    "name": "市辖区",
+    "province": "44",
+    "city": "16",
+    "area": "01"
+  },
+  {
+    "code": "441501",
+    "name": "市辖区",
+    "province": "44",
+    "city": "15",
+    "area": "01"
+  },
+  {
+    "code": "441401",
+    "name": "市辖区",
+    "province": "44",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "441301",
+    "name": "市辖区",
+    "province": "44",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "441201",
+    "name": "市辖区",
+    "province": "44",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "440901",
+    "name": "市辖区",
+    "province": "44",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "440801",
+    "name": "市辖区",
+    "province": "44",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "440701",
+    "name": "市辖区",
+    "province": "44",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "440601",
+    "name": "市辖区",
+    "province": "44",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "440501",
+    "name": "市辖区",
+    "province": "44",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "440401",
+    "name": "市辖区",
+    "province": "44",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "440301",
+    "name": "市辖区",
+    "province": "44",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "440201",
+    "name": "市辖区",
+    "province": "44",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "440101",
+    "name": "市辖区",
+    "province": "44",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "431301",
+    "name": "市辖区",
+    "province": "43",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "431201",
+    "name": "市辖区",
+    "province": "43",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "431101",
+    "name": "市辖区",
+    "province": "43",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "431001",
+    "name": "市辖区",
+    "province": "43",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "430901",
+    "name": "市辖区",
+    "province": "43",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "430801",
+    "name": "市辖区",
+    "province": "43",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "430701",
+    "name": "市辖区",
+    "province": "43",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "430601",
+    "name": "市辖区",
+    "province": "43",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "430501",
+    "name": "市辖区",
+    "province": "43",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "430401",
+    "name": "市辖区",
+    "province": "43",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "430301",
+    "name": "市辖区",
+    "province": "43",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "430201",
+    "name": "市辖区",
+    "province": "43",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "430101",
+    "name": "市辖区",
+    "province": "43",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "421301",
+    "name": "市辖区",
+    "province": "42",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "421201",
+    "name": "市辖区",
+    "province": "42",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "421101",
+    "name": "市辖区",
+    "province": "42",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "421001",
+    "name": "市辖区",
+    "province": "42",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "420901",
+    "name": "市辖区",
+    "province": "42",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "420801",
+    "name": "市辖区",
+    "province": "42",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "420701",
+    "name": "市辖区",
+    "province": "42",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "420601",
+    "name": "市辖区",
+    "province": "42",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "420501",
+    "name": "市辖区",
+    "province": "42",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "420301",
+    "name": "市辖区",
+    "province": "42",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "420201",
+    "name": "市辖区",
+    "province": "42",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "420101",
+    "name": "市辖区",
+    "province": "42",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "411701",
+    "name": "市辖区",
+    "province": "41",
+    "city": "17",
+    "area": "01"
+  },
+  {
+    "code": "411601",
+    "name": "市辖区",
+    "province": "41",
+    "city": "16",
+    "area": "01"
+  },
+  {
+    "code": "411501",
+    "name": "市辖区",
+    "province": "41",
+    "city": "15",
+    "area": "01"
+  },
+  {
+    "code": "411401",
+    "name": "市辖区",
+    "province": "41",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "411301",
+    "name": "市辖区",
+    "province": "41",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "411201",
+    "name": "市辖区",
+    "province": "41",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "411101",
+    "name": "市辖区",
+    "province": "41",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "411001",
+    "name": "市辖区",
+    "province": "41",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "410901",
+    "name": "市辖区",
+    "province": "41",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "410801",
+    "name": "市辖区",
+    "province": "41",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "410701",
+    "name": "市辖区",
+    "province": "41",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "410601",
+    "name": "市辖区",
+    "province": "41",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "410501",
+    "name": "市辖区",
+    "province": "41",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "410401",
+    "name": "市辖区",
+    "province": "41",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "410301",
+    "name": "市辖区",
+    "province": "41",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "410201",
+    "name": "市辖区",
+    "province": "41",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "410101",
+    "name": "市辖区",
+    "province": "41",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "371701",
+    "name": "市辖区",
+    "province": "37",
+    "city": "17",
+    "area": "01"
+  },
+  {
+    "code": "371601",
+    "name": "市辖区",
+    "province": "37",
+    "city": "16",
+    "area": "01"
+  },
+  {
+    "code": "371501",
+    "name": "市辖区",
+    "province": "37",
+    "city": "15",
+    "area": "01"
+  },
+  {
+    "code": "371401",
+    "name": "市辖区",
+    "province": "37",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "371301",
+    "name": "市辖区",
+    "province": "37",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "371101",
+    "name": "市辖区",
+    "province": "37",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "371001",
+    "name": "市辖区",
+    "province": "37",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "370901",
+    "name": "市辖区",
+    "province": "37",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "370801",
+    "name": "市辖区",
+    "province": "37",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "370701",
+    "name": "市辖区",
+    "province": "37",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "370601",
+    "name": "市辖区",
+    "province": "37",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "370501",
+    "name": "市辖区",
+    "province": "37",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "370401",
+    "name": "市辖区",
+    "province": "37",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "370301",
+    "name": "市辖区",
+    "province": "37",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "370201",
+    "name": "市辖区",
+    "province": "37",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "370101",
+    "name": "市辖区",
+    "province": "37",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "361101",
+    "name": "市辖区",
+    "province": "36",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "361001",
+    "name": "市辖区",
+    "province": "36",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "360901",
+    "name": "市辖区",
+    "province": "36",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "360801",
+    "name": "市辖区",
+    "province": "36",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "360701",
+    "name": "市辖区",
+    "province": "36",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "360601",
+    "name": "市辖区",
+    "province": "36",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "360501",
+    "name": "市辖区",
+    "province": "36",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "360401",
+    "name": "市辖区",
+    "province": "36",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "360301",
+    "name": "市辖区",
+    "province": "36",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "360201",
+    "name": "市辖区",
+    "province": "36",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "360101",
+    "name": "市辖区",
+    "province": "36",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "350901",
+    "name": "市辖区",
+    "province": "35",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "350801",
+    "name": "市辖区",
+    "province": "35",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "350701",
+    "name": "市辖区",
+    "province": "35",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "350601",
+    "name": "市辖区",
+    "province": "35",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "350501",
+    "name": "市辖区",
+    "province": "35",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "350401",
+    "name": "市辖区",
+    "province": "35",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "350301",
+    "name": "市辖区",
+    "province": "35",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "350201",
+    "name": "市辖区",
+    "province": "35",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "350101",
+    "name": "市辖区",
+    "province": "35",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "341801",
+    "name": "市辖区",
+    "province": "34",
+    "city": "18",
+    "area": "01"
+  },
+  {
+    "code": "341701",
+    "name": "市辖区",
+    "province": "34",
+    "city": "17",
+    "area": "01"
+  },
+  {
+    "code": "341601",
+    "name": "市辖区",
+    "province": "34",
+    "city": "16",
+    "area": "01"
+  },
+  {
+    "code": "341501",
+    "name": "市辖区",
+    "province": "34",
+    "city": "15",
+    "area": "01"
+  },
+  {
+    "code": "341301",
+    "name": "市辖区",
+    "province": "34",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "341201",
+    "name": "市辖区",
+    "province": "34",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "341101",
+    "name": "市辖区",
+    "province": "34",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "341001",
+    "name": "市辖区",
+    "province": "34",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "340801",
+    "name": "市辖区",
+    "province": "34",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "340701",
+    "name": "市辖区",
+    "province": "34",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "340601",
+    "name": "市辖区",
+    "province": "34",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "340501",
+    "name": "市辖区",
+    "province": "34",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "340401",
+    "name": "市辖区",
+    "province": "34",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "340301",
+    "name": "市辖区",
+    "province": "34",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "340201",
+    "name": "市辖区",
+    "province": "34",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "340101",
+    "name": "市辖区",
+    "province": "34",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "331101",
+    "name": "市辖区",
+    "province": "33",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "331001",
+    "name": "市辖区",
+    "province": "33",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "330901",
+    "name": "市辖区",
+    "province": "33",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "330801",
+    "name": "市辖区",
+    "province": "33",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "330701",
+    "name": "市辖区",
+    "province": "33",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "330601",
+    "name": "市辖区",
+    "province": "33",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "330501",
+    "name": "市辖区",
+    "province": "33",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "330401",
+    "name": "市辖区",
+    "province": "33",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "330301",
+    "name": "市辖区",
+    "province": "33",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "330201",
+    "name": "市辖区",
+    "province": "33",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "330101",
+    "name": "市辖区",
+    "province": "33",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "321301",
+    "name": "市辖区",
+    "province": "32",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "321201",
+    "name": "市辖区",
+    "province": "32",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "321101",
+    "name": "市辖区",
+    "province": "32",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "321001",
+    "name": "市辖区",
+    "province": "32",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "320901",
+    "name": "市辖区",
+    "province": "32",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "320801",
+    "name": "市辖区",
+    "province": "32",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "320701",
+    "name": "市辖区",
+    "province": "32",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "320601",
+    "name": "市辖区",
+    "province": "32",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "320501",
+    "name": "市辖区",
+    "province": "32",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "320401",
+    "name": "市辖区",
+    "province": "32",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "320301",
+    "name": "市辖区",
+    "province": "32",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "320201",
+    "name": "市辖区",
+    "province": "32",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "320101",
+    "name": "市辖区",
+    "province": "32",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "231201",
+    "name": "市辖区",
+    "province": "23",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "231101",
+    "name": "市辖区",
+    "province": "23",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "231001",
+    "name": "市辖区",
+    "province": "23",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "230901",
+    "name": "市辖区",
+    "province": "23",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "230801",
+    "name": "市辖区",
+    "province": "23",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "230701",
+    "name": "市辖区",
+    "province": "23",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "230601",
+    "name": "市辖区",
+    "province": "23",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "230501",
+    "name": "市辖区",
+    "province": "23",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "230401",
+    "name": "市辖区",
+    "province": "23",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "230301",
+    "name": "市辖区",
+    "province": "23",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "230201",
+    "name": "市辖区",
+    "province": "23",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "230101",
+    "name": "市辖区",
+    "province": "23",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "220801",
+    "name": "市辖区",
+    "province": "22",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "220701",
+    "name": "市辖区",
+    "province": "22",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "220601",
+    "name": "市辖区",
+    "province": "22",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "220501",
+    "name": "市辖区",
+    "province": "22",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "220401",
+    "name": "市辖区",
+    "province": "22",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "220301",
+    "name": "市辖区",
+    "province": "22",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "220201",
+    "name": "市辖区",
+    "province": "22",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "220101",
+    "name": "市辖区",
+    "province": "22",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "211401",
+    "name": "市辖区",
+    "province": "21",
+    "city": "14",
+    "area": "01"
+  },
+  {
+    "code": "211301",
+    "name": "市辖区",
+    "province": "21",
+    "city": "13",
+    "area": "01"
+  },
+  {
+    "code": "211201",
+    "name": "市辖区",
+    "province": "21",
+    "city": "12",
+    "area": "01"
+  },
+  {
+    "code": "211101",
+    "name": "市辖区",
+    "province": "21",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "211001",
+    "name": "市辖区",
+    "province": "21",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "210901",
+    "name": "市辖区",
+    "province": "21",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "210801",
+    "name": "市辖区",
+    "province": "21",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "210701",
+    "name": "市辖区",
+    "province": "21",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "210601",
+    "name": "市辖区",
+    "province": "21",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "210501",
+    "name": "市辖区",
+    "province": "21",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "210401",
+    "name": "市辖区",
+    "province": "21",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "210301",
+    "name": "市辖区",
+    "province": "21",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "210201",
+    "name": "市辖区",
+    "province": "21",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "210101",
+    "name": "市辖区",
+    "province": "21",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "150901",
+    "name": "市辖区",
+    "province": "15",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "150801",
+    "name": "市辖区",
+    "province": "15",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "150701",
+    "name": "市辖区",
+    "province": "15",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "150601",
+    "name": "市辖区",
+    "province": "15",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "150501",
+    "name": "市辖区",
+    "province": "15",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "150401",
+    "name": "市辖区",
+    "province": "15",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "150301",
+    "name": "市辖区",
+    "province": "15",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "150201",
+    "name": "市辖区",
+    "province": "15",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "150101",
+    "name": "市辖区",
+    "province": "15",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "141101",
+    "name": "市辖区",
+    "province": "14",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "141001",
+    "name": "市辖区",
+    "province": "14",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "140901",
+    "name": "市辖区",
+    "province": "14",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "140801",
+    "name": "市辖区",
+    "province": "14",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "140701",
+    "name": "市辖区",
+    "province": "14",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "140601",
+    "name": "市辖区",
+    "province": "14",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "140501",
+    "name": "市辖区",
+    "province": "14",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "140401",
+    "name": "市辖区",
+    "province": "14",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "140301",
+    "name": "市辖区",
+    "province": "14",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "140201",
+    "name": "市辖区",
+    "province": "14",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "140101",
+    "name": "市辖区",
+    "province": "14",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "131101",
+    "name": "市辖区",
+    "province": "13",
+    "city": "11",
+    "area": "01"
+  },
+  {
+    "code": "131001",
+    "name": "市辖区",
+    "province": "13",
+    "city": "10",
+    "area": "01"
+  },
+  {
+    "code": "130901",
+    "name": "市辖区",
+    "province": "13",
+    "city": "09",
+    "area": "01"
+  },
+  {
+    "code": "130801",
+    "name": "市辖区",
+    "province": "13",
+    "city": "08",
+    "area": "01"
+  },
+  {
+    "code": "130701",
+    "name": "市辖区",
+    "province": "13",
+    "city": "07",
+    "area": "01"
+  },
+  {
+    "code": "130601",
+    "name": "市辖区",
+    "province": "13",
+    "city": "06",
+    "area": "01"
+  },
+  {
+    "code": "130501",
+    "name": "市辖区",
+    "province": "13",
+    "city": "05",
+    "area": "01"
+  },
+  {
+    "code": "130401",
+    "name": "市辖区",
+    "province": "13",
+    "city": "04",
+    "area": "01"
+  },
+  {
+    "code": "130301",
+    "name": "市辖区",
+    "province": "13",
+    "city": "03",
+    "area": "01"
+  },
+  {
+    "code": "130201",
+    "name": "市辖区",
+    "province": "13",
+    "city": "02",
+    "area": "01"
+  },
+  {
+    "code": "130101",
+    "name": "市辖区",
+    "province": "13",
+    "city": "01",
+    "area": "01"
+  },
+  {
+    "code": "654223",
+    "name": "沙湾县",
+    "province": "65",
+    "city": "42",
+    "area": "23"
+  },
+  {
+    "code": "610928",
+    "name": "旬阳县",
+    "province": "61",
+    "city": "09",
+    "area": "28"
+  },
+  {
+    "code": "610322",
+    "name": "凤翔县",
+    "province": "61",
+    "city": "03",
+    "area": "22"
+  },
+  {
+    "code": "532331",
+    "name": "禄丰县",
+    "province": "53",
+    "city": "23",
+    "area": "31"
+  },
+  {
+    "code": "520522",
+    "name": "黔西县",
+    "province": "52",
+    "city": "05",
+    "area": "22"
+  },
+  {
+    "code": "513425",
+    "name": "会理县",
+    "province": "51",
+    "city": "34",
+    "area": "25"
+  },
+  {
+    "code": "450127",
+    "name": "横县",
+    "province": "45",
+    "city": "01",
+    "area": "27"
+  },
+  {
+    "code": "431121",
+    "name": "祁阳县",
+    "province": "43",
+    "city": "11",
+    "area": "21"
+  },
+  {
+    "code": "410381",
+    "name": "偃师市",
+    "province": "41",
+    "city": "03",
+    "area": "81"
+  },
+  {
+    "code": "410322",
+    "name": "孟津县",
+    "province": "41",
+    "city": "03",
+    "area": "22"
+  },
+  {
+    "code": "410306",
+    "name": "吉利区",
+    "province": "41",
+    "city": "03",
+    "area": "06"
+  },
+  {
+    "code": "350681",
+    "name": "龙海市",
+    "province": "35",
+    "city": "06",
+    "area": "81"
+  },
+  {
+    "code": "350625",
+    "name": "长泰县",
+    "province": "35",
+    "city": "06",
+    "area": "25"
+  },
+  {
+    "code": "350527",
+    "name": "金门县",
+    "province": "35",
+    "city": "05",
+    "area": "27"
+  },
+  {
+    "code": "350427",
+    "name": "沙县",
+    "province": "35",
+    "city": "04",
+    "area": "27"
+  },
+  {
+    "code": "350403",
+    "name": "三元区",
+    "province": "35",
+    "city": "04",
+    "area": "03"
+  },
+  {
+    "code": "350402",
+    "name": "梅列区",
+    "province": "35",
+    "city": "04",
+    "area": "02"
+  },
+  {
+    "code": "330104",
+    "name": "江干区",
+    "province": "33",
+    "city": "01",
+    "area": "04"
+  },
+  {
+    "code": "330103",
+    "name": "下城区",
+    "province": "33",
+    "city": "01",
+    "area": "03"
+  }
+]
