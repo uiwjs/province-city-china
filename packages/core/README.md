@@ -15,6 +15,7 @@
 
 ### 数据更新 Diff
 
+- [数据更新 2022/03/22](https://github.com/uiwjs/province-city-china/compare/v8.2.0...v8.3.0) 
 - [数据更新 2022/03/22](https://github.com/uiwjs/province-city-china/compare/v8.1.0...v8.2.0) 
 - [数据更新 2022/02/08](https://github.com/uiwjs/province-city-china/compare/v8.0.0...v8.1.0) 
 - [数据更新 2021/05/11](https://github.com/uiwjs/province-city-china/compare/v7.1.3...v8.0.0) 
