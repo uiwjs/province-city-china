@@ -40,5 +40,6 @@ function copyToDir(source, filename, src = 'dist') {
   copyToDir('town', 'town.min.json');
 
   copyToDir('district-code', 'district-code.json');
+  copyToDir('district-code', 'district-code.csv');
 
 })();

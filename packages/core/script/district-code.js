@@ -18,6 +18,14 @@ const data = fs.readFileSync('./script/district-code.txt').toString().split('\n'
     })
     await fs.writeFile('./dist/district-code.json', JSON.stringify(result, null, 2));
     console.log('  \x1b[32;1m✔\x1b[0m 获取 <长途电话区号> 数据: ./dist/district-code.json');
+
+    // -----> 保存 district-code.csv 数据
+    let csvData = 'name,code\n';
+    [...result].forEach(dt => {
+      csvData += ['name', 'code'].map(name => dt[name] || '').join(',') + '\n';
+    });
+    await fs.outputFile('./dist/district-code.csv', csvData.replace(/\n$/, ''));
+    console.log('  \x1b[32;1m✔\x1b[0m 生成 <长途电话区号> CSV 数据: ./dist/district-code.csv');
   } catch (error) {
     console.log(`ERR:获取<长途电话区号>数据[]:`, error);
   }
