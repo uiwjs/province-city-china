@@ -1,6 +1,6 @@
 {
   "name": "@province-city-china/district-code",
-  "version": "8.2.0",
+  "version": "8.2.1",
   "description": "China long distance telephone area code. 中国地区长途电话区号。",
   "repository": {
     "type": "git",
@@ -9,9 +9,7 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "province.json",
-    "province.min.json",
-    "province.csv"
+    "district-code.json"
   ],
   "keywords": [
     "province",
@@ -23,23 +21,9 @@
     "中国",
     "中华人民共和国",
     "中国长途电话区号",
-    "行政区划",
-    "省市",
-    "省市区",
-    "联动",
-    "省份",
-    "城市",
-    "县市",
-    "区县",
-    "乡镇",
-    "街道",
-    "村委会",
-    "居委会",
-    "省级",
-    "地级",
-    "县级",
-    "乡级",
-    "村级"
+    "电话区号",
+    "区号",
+    "长途电话区号"
   ],
   "author": "Kenny Wong <wowohoo@qq.com>",
   "license": "MIT"
