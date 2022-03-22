@@ -10,11 +10,12 @@
 ```
 
 - [中华人民共和国行政区划代码，更新时间：2021-01-04](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
-- [统计用区划和城乡划分代码，更新时间：2020-11-06](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [统计用区划和城乡划分代码，更新时间：2021-12-30](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 - [~~国家和地区代码列表(下载)，更新时间：2011-12-06~~](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html) 数据已被删除
 
 ### 数据更新 Diff
 
+- [数据更新 2022/03/22](https://github.com/uiwjs/province-city-china/compare/v8.1.0...v8.2.0) 
 - [数据更新 2022/02/08](https://github.com/uiwjs/province-city-china/compare/v8.0.0...v8.1.0) 
 - [数据更新 2021/05/11](https://github.com/uiwjs/province-city-china/compare/v7.1.3...v8.0.0) 
 - [数据更新 2020/11/24](https://github.com/uiwjs/province-city-china/compare/v6.1.1...v7.1.3) 
