@@ -1,0 +1,128 @@
+[
+  {
+    "code": "810001",
+    "name": "中西区",
+    "province": "81",
+    "city": "00",
+    "area": "01"
+  },
+  {
+    "code": "810002",
+    "name": "湾仔区",
+    "province": "81",
+    "city": "00",
+    "area": "02"
+  },
+  {
+    "code": "810003",
+    "name": "东区",
+    "province": "81",
+    "city": "00",
+    "area": "03"
+  },
+  {
+    "code": "810004",
+    "name": "南区",
+    "province": "81",
+    "city": "00",
+    "area": "04"
+  },
+  {
+    "code": "810005",
+    "name": "油尖旺区",
+    "province": "81",
+    "city": "00",
+    "area": "05"
+  },
+  {
+    "code": "810006",
+    "name": "深水埗区",
+    "province": "81",
+    "city": "00",
+    "area": "06"
+  },
+  {
+    "code": "810007",
+    "name": "九龙城区",
+    "province": "81",
+    "city": "00",
+    "area": "07"
+  },
+  {
+    "code": "810008",
+    "name": "黄大仙区",
+    "province": "81",
+    "city": "00",
+    "area": "08"
+  },
+  {
+    "code": "810009",
+    "name": "观塘区",
+    "province": "81",
+    "city": "00",
+    "area": "09"
+  },
+  {
+    "code": "810010",
+    "name": "荃湾区",
+    "province": "81",
+    "city": "00",
+    "area": "10"
+  },
+  {
+    "code": "810011",
+    "name": "屯门区",
+    "province": "81",
+    "city": "00",
+    "area": "11"
+  },
+  {
+    "code": "810012",
+    "name": "元朗区",
+    "province": "81",
+    "city": "00",
+    "area": "12"
+  },
+  {
+    "code": "810013",
+    "name": "北区",
+    "province": "81",
+    "city": "00",
+    "area": "13"
+  },
+  {
+    "code": "810014",
+    "name": "大埔区",
+    "province": "81",
+    "city": "00",
+    "area": "14"
+  },
+  {
+    "code": "810015",
+    "name": "西贡区",
+    "province": "81",
+    "city": "00",
+    "area": "15"
+  },
+  {
+    "code": "810016",
+    "name": "沙田区",
+    "province": "81",
+    "city": "00",
+    "area": "16"
+  },
+  {
+    "code": "810017",
+    "name": "葵青区",
+    "province": "81",
+    "city": "00",
+    "area": "17"
+  },
+  {
+    "code": "810018",
+    "name": "离岛区",
+    "province": "81",
+    "city": "00",
+    "area": "18"
+  }
+]

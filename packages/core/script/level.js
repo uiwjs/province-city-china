@@ -2,6 +2,8 @@ const path = require('path');
 const FS = require('fs-extra');
 const city = require('../dist/city.json')
 const area = require('../dist/area.json')
+const hongkong = require('../dist/hongkong.json')
+const macau = require('../dist/macau.json')
 const province = require('../dist/province.json')
 
 ;(async () => {
@@ -19,6 +21,9 @@ const province = require('../dist/province.json')
       if (/^(11|31|12|50)$/.test(p.province) && cData.length === 0) {
         cData = area.filter(c => c.province === p.province)
       }
+      if (/^(81|82)$/.test(p.province) && cData.length === 0) {
+        cData = [...hongkong, ...macau].filter(c => c.province === p.province)
+      }
       p.children = cData;
       return p;
     });
@@ -35,6 +40,11 @@ const province = require('../dist/province.json')
       });
       if (/^(11|31|12|50)$/.test(p.province) && cData.length === 0) {
         cData = area.filter(c => c.province === p.province).map((child) => ({
+          c: child.code, n: child.name, p: child.province, d: child.city, a: child.area
+        }));
+      }
+      if (/^(81|82)$/.test(p.province) && cData.length === 0) {
+        cData = [...hongkong, ...macau].filter(c => c.province === p.province).map((child) => ({
           c: child.code, n: child.name, p: child.province, d: child.city, a: child.area
         }));
       }

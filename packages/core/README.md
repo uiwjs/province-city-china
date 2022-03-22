@@ -6,7 +6,7 @@
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
 ```
-数据更新时间：2021/05/11 09:55:00 GMT+0800 (中国标准时间)
+数据更新时间：2021/03/22 15:39:04 GMT+0800 (中国标准时间)
 ```
 
 - [中华人民共和国行政区划代码，更新时间：2021-01-04](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
@@ -117,6 +117,7 @@ const city = require('province-city-china/dist/city.json');
 | 县级(区县) | [area.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.min.json)) | [area.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |
 | 乡级(乡镇/街) | [town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.min.json)) | [town.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
 | 县市区没有乡级数据 | [not-found-town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.min.json)) | - | - | [not-found-town.json](https://unpkg.com/province-city-china/dist/not-found-town.json) |
+| 香港澳门<区>数据 | [hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) <br> [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)  | - | - | [hongkong.json](https://unpkg.com/province-city-china/dist/hongkong.json) <br> [macau.json](https://unpkg.com/province-city-china/dist/macau.json) |
 
 更多 CDN 数据访问
 
@@ -192,6 +193,8 @@ numeric: 'r'
 
 [data.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.json) | [data.min.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.min.json) | [data.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.csv) | [data.sql](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.sql) 
 
+包含香港澳门<区>数据
+
 ```js
 [
   {
@@ -220,6 +223,8 @@ town: 't'
 ### 省/地/县/乡层级数据
 
 [level.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.json) | [level.min.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.min.json)
+
+包含香港澳门<区>数据
 
 ```js
 [
@@ -402,6 +407,24 @@ city: 'y'
 area: 'a'
 town: 't'
 ```
+
+### 香港澳门<区>数据
+
+[hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) | [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)
+
+```js
+[
+  {
+    "code": "810002",
+    "name": "湾仔区",
+    "province": "81",
+    "city": "00",
+    "area": "02"
+  },
+  // ...
+]
+```
+
 
 ## 脚本获取数据说明
 
