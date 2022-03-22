@@ -9,6 +9,7 @@
   "files": [
     "index.js",
     "index.d.ts",
+    "district-code.csv",
     "district-code.json"
   ],
   "keywords": [
