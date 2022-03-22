@@ -120,7 +120,7 @@ const city = require('province-city-china/dist/city.json');
 | 乡级(乡镇/街) | [town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.min.json)) | [town.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/town.csv) | - | [town.json](https://unpkg.com/province-city-china/dist/town.json) / [csv](https://unpkg.com/province-city-china/dist/town.csv) |
 | 县市区没有乡级数据 | [not-found-town.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/not-found-town.min.json)) | - | - | [not-found-town.json](https://unpkg.com/province-city-china/dist/not-found-town.json) |
 | 香港澳门<区>数据 | [hongkong.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/hongkong.json) <br> [macau.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/macau.json)  | - | - | [hongkong.json](https://unpkg.com/province-city-china/dist/hongkong.json) <br> [macau.json](https://unpkg.com/province-city-china/dist/macau.json) |
-| 国内长途电话区号 | [district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | - | - | [district-code.json](https://unpkg.com/province-city-china/dist/district-code.json) |
+| 国内长途电话区号 | [district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | [district-code.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.csv) | - | [district-code.json](https://unpkg.com/province-city-china/dist/district-code.json) / [csv](https://unpkg.com/province-city-china/dist/district-code.csv) |
 
 更多 CDN 数据访问
 
@@ -430,7 +430,7 @@ town: 't'
 
 ### 国内长途电话区号
 
-[district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json)
+[district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | [district-code.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.csv)
 
 ```js
 [

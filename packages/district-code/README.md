@@ -5,7 +5,7 @@
 npm install @province-city-china/district-code --save-dev
 ```
 
-[district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json)
+[district-code.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.json) | [district-code.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/district-code.csv)
 
 ```js
 [
