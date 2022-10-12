@@ -28,6 +28,11 @@ jobs:
           output: ./packages/core/dist/CONTRIBUTORS.svg
           avatarSize: 42
 
+      - run: npm run sql
+      - run: npm run level
+      - run: npm run code
+      - run: npm run copy
+
       - name: Create Tag
         id: create_tag
         uses: jaywcjlove/create-tag-action@v1.3.6
@@ -99,3 +104,66 @@ jobs:
             | [@province-city-china/utils](https://github.com/uiwjs/province-city-china/tree/master/packages/utils) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/utils.svg)](https://www.npmjs.com/package/@province-city-china/utils) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/utils) |
             | [@province-city-china/types](https://github.com/uiwjs/province-city-china/tree/master/packages/types) | 类型文件 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | - |
             | [@province-city-china/district-code](https://github.com/uiwjs/province-city-china/tree/master/packages/district-code) | 国内长途电话区号 | [![npm package](https://img.shields.io/npm/v/@province-city-china/district-code.svg)](https://www.npmjs.com/package/@province-city-china/district-code) | - |
+
+
+
+
+      - name:  📦 province-city-china publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/core/package.json
+
+      - name:  📦 @province-city-china/area publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/area/package.json
+
+      - name:  📦 @province-city-china/city publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/city/package.json
+
+      - name:  📦 @province-city-china/country publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/country/package.json
+
+      - name:  📦 @province-city-china/district-code publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/district-code/package.json
+
+      - name:  📦 @province-city-china/level publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/level/package.json
+
+      - name:  📦 @province-city-china/province publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/province/package.json
+
+      - name:  📦 @province-city-china/town publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/town/package.json
+
+      - name:  📦 @province-city-china/types publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/types/package.json
+
+      - name:  📦 @province-city-china/utils publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/utils/package.json
