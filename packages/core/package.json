@@ -61,7 +61,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@province-city-china/types": "8.1.0"
+    "@province-city-china/types": "8.5.3"
   },
   "devDependencies": {
     "cheerio": "~1.0.0-rc.10",
