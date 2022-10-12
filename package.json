@@ -19,7 +19,8 @@
     "⑦": "------------获取<长途电话区号>数据------------------------",
     "code": "yarn workspace province-city-china code",
     "⑧": "------------数据拷贝到各个<包>中------------------------",
-    "copy": "yarn workspace province-city-china copy"
+    "copy": "yarn workspace province-city-china copy",
+    "version": "lerna version --exact --force-publish --no-push --no-git-tag-version"
   },
   "workspaces": [
     "packages/*"
@@ -29,5 +30,8 @@
     "url": "https://github.com/uiwjs/province-city-china.git"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^5.6.2"
+  }
 }
