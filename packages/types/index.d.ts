@@ -240,8 +240,27 @@ declare module 'province-city-china/data' {
   export const town: ProvinceCityChina.Town[];
   export const level: ProvinceCityChina.Level[];
 }
+
 declare module 'province-city-china' {
+  export type Base = ProvinceCityChina.Base;
+  export type Data = ProvinceCityChina.Data;
+  export type Province = ProvinceCityChina.Province;
+  export type City = ProvinceCityChina.City;
+  export type Area = ProvinceCityChina.Area;
+  export type Town = ProvinceCityChina.Town;
+  export type Level = ProvinceCityChina.Level;
   export function sortProvince(arr: ProvinceCityChina.Level[], level?: number): ProvinceCityChina.Level[];
   export function findCityChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.City[];
   export function findAreaChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.Area[];
+}
+
+declare module '@province-city-china/types' {
+  export type Base = ProvinceCityChina.Base;
+  export type Data = ProvinceCityChina.Data;
+  export type Province = ProvinceCityChina.Province;
+  export type City = ProvinceCityChina.City;
+  export type Area = ProvinceCityChina.Area;
+  export type Town = ProvinceCityChina.Town;
+  export type Level = ProvinceCityChina.Level;
+  export default ProvinceCityChina
 }
