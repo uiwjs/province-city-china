@@ -249,6 +249,7 @@ declare module 'province-city-china' {
   export type Area = ProvinceCityChina.Area;
   export type Town = ProvinceCityChina.Town;
   export type Level = ProvinceCityChina.Level;
+  export type Country = ProvinceCityChina.Country;
   export function sortProvince(arr: ProvinceCityChina.Level[], level?: number): ProvinceCityChina.Level[];
   export function findCityChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.City[];
   export function findAreaChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.Area[];
@@ -262,5 +263,6 @@ declare module '@province-city-china/types' {
   export type Area = ProvinceCityChina.Area;
   export type Town = ProvinceCityChina.Town;
   export type Level = ProvinceCityChina.Level;
+  export type Country = ProvinceCityChina.Country;
   export default ProvinceCityChina
 }
