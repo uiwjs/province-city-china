@@ -135,6 +135,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: packages/country/package.json
 
+      - name:  📦 @province-city-china/data publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: packages/data/package.json
+
       - name:  📦 @province-city-china/district-code publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
