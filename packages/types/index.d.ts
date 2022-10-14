@@ -137,101 +137,109 @@ declare namespace ProvinceCityChina {
   }
 }
 
-declare module 'province-city-china/dist/data.json' {
-  type Data = ProvinceCityChina.Data[];
-  export default Data;
-}
 declare module '@province-city-china/data/data.json' {
-  type Data = ProvinceCityChina.Data[];
-  export default Data;
+  const data: ProvinceCityChina.Data[];
+  export default data;
 }
 declare module '@province-city-china/data/' {
   type Data = ProvinceCityChina.Data[];
   export default Data;
 }
 
-declare module 'province-city-china/dist/area.json' {
-  type Area = ProvinceCityChina.Area[];
-  export default Area;
-}
 declare module '@province-city-china/area/' {
   type Area = ProvinceCityChina.Area[];
   export default Area;
 }
+
 declare module '@province-city-china/area/area.json' {
-  type Area = ProvinceCityChina.Area[];
-  export default Area;
+  const data: ProvinceCityChina.Area[];
+  export default data;
 }
 
-declare module 'province-city-china/dist/city.json' {
-  type City = ProvinceCityChina.City[];
-  export default City;
-}
 declare module '@province-city-china/city/' {
   type City = Array<ProvinceCityChina.City>;
   export default City;
 }
 declare module '@province-city-china/city/city.json' {
-  type City = ProvinceCityChina.City[];
-  export default City;
+  const data: ProvinceCityChina.City[];
+  export default data;
+}
+
+declare module 'province-city-china/dist/data.json' {
+  const data: ProvinceCityChina.Data[];
+  export default data;
+}
+declare module 'province-city-china/dist/area.json' {
+  const data: ProvinceCityChina.Area[];
+  export default data;
+}
+
+declare module 'province-city-china/dist/city.json' {
+  const data: ProvinceCityChina.City[];
+  export default data;
+}
+
+declare module 'province-city-china/dist/country.json' {
+  const data: ProvinceCityChina.Country[];
+  export default data;
 }
 
 declare module 'province-city-china/dist/province.json' {
-  type Province = ProvinceCityChina.Province[];
-  export default Province;
+  const data: ProvinceCityChina.Province[];
+  export default data;
 }
+
+declare module 'province-city-china/dist/level.json' {
+  const data: Array<ProvinceCityChina.Level>;
+  export default data;
+}
+
 declare module '@province-city-china/province/' {
   type Province = ProvinceCityChina.Province[];
   export default Province;
 }
 declare module '@province-city-china/province/province.json' {
-  type Province = ProvinceCityChina.Province[];
-  export default Province;
+  const data: ProvinceCityChina.Province[];
+  export default data;
 }
 
 declare module 'province-city-china/dist/town.json' {
-  type Town = ProvinceCityChina.Town[];
-  export default Town;
+  const data: ProvinceCityChina.Town[];
+  export default data;
 }
 declare module '@province-city-china/town/' {
   type Town = ProvinceCityChina.Town[];
   export default Town;
 }
 declare module '@province-city-china/town/town.json' {
-  type Town = ProvinceCityChina.Town[];
-  export default Town;
-}
-
-declare module 'province-city-china/dist/country.json' {
-  type Country = ProvinceCityChina.Country[];
-  export default Country;
+  const data: ProvinceCityChina.Town[];
+  export default data;
 }
 declare module '@province-city-china/country/' {
   type Country = ProvinceCityChina.Country[];
   export default Country;
 }
 declare module '@province-city-china/country/country.json' {
-  type Country = ProvinceCityChina.Country[];
-  export default Country;
+  const data: ProvinceCityChina.Country[];
+  export default data;
 }
 
-declare module 'province-city-china/dist/level.json' {
-  type Level = Array<ProvinceCityChina.Level>;
-  export default Level;
-}
 declare module '@province-city-china/level/' {
   type Level = Array<ProvinceCityChina.Level>;
   export default Level;
 }
-declare module '@province-city-china/level/level.json' {
-  type Level = Array<ProvinceCityChina.Level>;
-  export default Level;
-}
+
 declare module '@province-city-china/utils' {
   export function sortProvince(arr: ProvinceCityChina.Level[], level?: number): ProvinceCityChina.Level[];
   export function findCityChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.City[];
   export function findAreaChild(arr: ProvinceCityChina.Level[], code: string, level?: number): ProvinceCityChina.Area[];
 }
+
+declare module '@province-city-china/level/level.json' {
+  const data: Array<ProvinceCityChina.Level>;
+  export default data;
+}
+
 declare module 'province-city-china/data' {
   export const data: ProvinceCityChina.Data[];
   export const province: ProvinceCityChina.Province[];
