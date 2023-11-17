@@ -34,22 +34,22 @@ const province = require('../dist/province.json')
     const minData = province.map(p => {
       let cData = [...city].filter(m => m.province === p.province && /00$/.test(m.code)).map(m => {
         m.children = area.filter(a => a.city === m.city && a.province === m.province).map((child) => ({
-          c: child.code, n: child.name, p: child.province, d: child.city, a: child.area
+          c: child.code, n: child.name, p: child.province, y: child.city, a: child.area
         }));
-        return { c: m.code, n: m.name, p: m.province, d: m.children };
+        return { c: m.code, n: m.name, p: m.province, y: m.city, d: m.children };
       });
       if (/^(11|31|12|50)$/.test(p.province) && cData.length === 0) {
         cData = area.filter(c => c.province === p.province).map((child) => ({
-          c: child.code, n: child.name, p: child.province, d: child.city, a: child.area
+          c: child.code, n: child.name, p: child.province, y: child.city, a: child.area
         }));
       }
       if (/^(81|82)$/.test(p.province) && cData.length === 0) {
         cData = [...hongkong, ...macau].filter(c => c.province === p.province).map((child) => ({
-          c: child.code, n: child.name, p: child.province, d: child.city, a: child.area
+          c: child.code, n: child.name, p: child.province, y: child.city, a: child.area
         }));
       }
       p.children = cData;
-      return { c: p.code, n: p.name, p: p.province, d: p.children };
+      return { c: p.code, n: p.name, p: p.province, y: p.city, d: p.children };
     });
     await FS.outputFile(minDataPath, JSON.stringify(minData));
     console.log('  \x1b[32;1m✔\x1b[0m 数据保存:', path.relative(process.cwd(), minDataPath));
