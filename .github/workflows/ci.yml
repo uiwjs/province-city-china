@@ -116,76 +116,76 @@ jobs:
       - run: npm publish --access public --provenance
         name: 📦 province-city-china publish to NPM
         continue-on-error: true
-        working-directory: core
+        working-directory: packages/core
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/area publish to NPM
         continue-on-error: true
-        working-directory: area
+        working-directory: packages/area
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/city publish to NPM
         continue-on-error: true
-        working-directory: city
+        working-directory: packages/city
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/country publish to NPM
         continue-on-error: true
-        working-directory: country
+        working-directory: packages/country
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/data publish to NPM
         continue-on-error: true
-        working-directory: data
+        working-directory: packages/data
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/district-code publish to NPM
         continue-on-error: true
-        working-directory: district-code
+        working-directory: packages/district-code
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/level publish to NPM
         continue-on-error: true
-        working-directory: level
+        working-directory: packages/level
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/province publish to NPM
         continue-on-error: true
-        working-directory: province
+        working-directory: packages/province
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/town publish to NPM
         continue-on-error: true
-        working-directory: town
+        working-directory: packages/town
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/types publish to NPM
         continue-on-error: true
-        working-directory: types
+        working-directory: packages/types
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: npm publish --access public --provenance
         name: 📦 @province-city-china/utils publish to NPM
         continue-on-error: true
-        working-directory: utils
+        working-directory: packages/utils
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
