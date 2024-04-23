@@ -67,7 +67,7 @@
     "cheerio": "~1.0.0-rc.10",
     "csvtojson": "~2.0.10",
     "fs-extra": "~10.0.1",
-    "superagent": "~7.1.1",
+    "superagent": "~9.0.0",
     "superagent-charset": "~1.2.0"
   }
 }
