@@ -873,15 +873,6 @@
     "numeric": 340
   },
   {
-    "id": 98,
-    "cnname": "香港",
-    "name": "Hong Kong",
-    "fullname": "the Hong Kong Special Administrative Region of China",
-    "alpha2": "HK",
-    "alpha3": "HKG",
-    "numeric": 344
-  },
-  {
     "id": 99,
     "cnname": "匈牙利",
     "name": "Hungary",
@@ -1150,15 +1141,6 @@
     "alpha2": "LU",
     "alpha3": "LUX",
     "numeric": 442
-  },
-  {
-    "id": 129,
-    "cnname": "澳门",
-    "name": "Macao",
-    "fullname": "Macao Special Administrative Region of China",
-    "alpha2": "MO",
-    "alpha3": "MAC",
-    "numeric": 446
   },
   {
     "id": 130,
@@ -1906,15 +1888,6 @@
     "alpha2": "SY",
     "alpha3": "SYR",
     "numeric": 760
-  },
-  {
-    "id": 213,
-    "cnname": "台湾",
-    "name": "Taiwan (Province of China)",
-    "fullname": "",
-    "alpha2": "TW",
-    "alpha3": "TWN",
-    "numeric": 158
   },
   {
     "id": 214,

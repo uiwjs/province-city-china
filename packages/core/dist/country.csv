@@ -96,7 +96,6 @@ id,cnname,name,fullname,alpha2,alpha3,numeric
 95,赫德岛和麦克唐纳岛,Heard Island and McDonald Islands,,HM,HMD,334
 96,梵蒂冈,Holy See (the) [Vatican City State],,VA,VAT,336
 97,洪都拉斯,Honduras,the Republic of Honduras,HN,HND,340
-98,香港,Hong Kong,the Hong Kong Special Administrative Region of China,HK,HKG,344
 99,匈牙利,Hungary,the Republic of Hungary,HU,HUN,348
 100,冰岛,Iceland,the Republic of Iceland,IS,ISL,352
 101,印度,India,the Republic of India,IN,IND,356
@@ -127,7 +126,6 @@ id,cnname,name,fullname,alpha2,alpha3,numeric
 126,列支敦士登,Liechtenstein,the Principality of Liechtenstein,LI,LIE,438
 127,立陶宛,Lithuania,the Republic of Lithuania,LT,LTU,440
 128,卢森堡,Luxembourg,the Grand Duchy of Luxembourg,LU,LUX,442
-129,澳门,Macao,Macao Special Administrative Region of China,MO,MAC,446
 130,前南马其顿,Macedonia (the former Yugoslav Republic of),the former Yugoslav Republic of Macedonia,MK,MKD,807
 131,马达加斯加,Madagascar,the Republic of Madagascar,MG,MDG,450
 132,马拉维,Malawi,the Republic of Malawi,MW,MWI,454
@@ -211,7 +209,6 @@ id,cnname,name,fullname,alpha2,alpha3,numeric
 210,瑞典,Sweden,the Kingdom of Sweden,SE,SWE,752
 211,瑞士,Switzerland,the Swiss Confederation,CH,CHE,756
 212,叙利亚,Syrian Arab Republic (the),the Syrian Arab Republic,SY,SYR,760
-213,台湾,Taiwan (Province of China),,TW,TWN,158
 214,塔吉克斯坦,Tajikistan,the Republic of Tajikistan,TJ,TJK,762
 215,坦桑尼亚,"Tanzania,United Republic of",the United Republic of Tanzania,TZ,TZA,834
 216,泰国,Thailand,the Kingdom of Thailand,TH,THA,764
