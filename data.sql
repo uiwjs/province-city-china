@@ -1,6 +1,6 @@
 # ************************************************************
 # 中华人民共和国行政区划代码 SQL dump
-# Generation Time: Thu Apr 17 2025 01:17:52 GMT+0000 (Coordinated Universal Time)
+# Generation Time: Sun Jun 08 2025 06:37:22 GMT+0000 (Coordinated Universal Time)
 # ************************************************************
 
 DROP TABLE IF EXISTS `province`;
