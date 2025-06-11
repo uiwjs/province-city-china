@@ -1022,11 +1022,6 @@
   dependencies:
     esquery "^1.0.1"
 
-"@province-city-china/types@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@province-city-china/types/-/types-8.1.0.tgz#18cd9be8b7811ef42bbbda1ea6d798e84b4e6196"
-  integrity sha512-ORtH6UNZNZaN1tTBeMdyWYD09wNi6Pf4E4hO9CtkqcrZNbySlAqFrhSwYBpudDQJeLcGDRXkq/WbbdS5e1Gr9A==
-
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
@@ -2451,9 +2446,9 @@ htmlparser2@^6.1.0:
     entities "^2.0.0"
 
 http-cache-semantics@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
-  integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
+  integrity sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==
 
 http-proxy-agent@^5.0.0:
   version "5.0.0"
