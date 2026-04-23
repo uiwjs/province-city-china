@@ -1022,11 +1022,6 @@
   dependencies:
     esquery "^1.0.1"
 
-"@province-city-china/types@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@province-city-china/types/-/types-8.1.0.tgz#18cd9be8b7811ef42bbbda1ea6d798e84b4e6196"
-  integrity sha512-ORtH6UNZNZaN1tTBeMdyWYD09wNi6Pf4E4hO9CtkqcrZNbySlAqFrhSwYBpudDQJeLcGDRXkq/WbbdS5e1Gr9A==
-
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
@@ -2161,10 +2156,10 @@ fs-extra@^9.1.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@~10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
-  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
+fs-extra@~11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.0.tgz#0daced136bbaf65a555a326719af931adc7a314d"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
