@@ -1,7 +1,53 @@
+<div markdown="1">
+  <sup>使用<a href="https://wangchujiang.com/#/app" target="_blank">我的应用</a>也是一种<a href="https://wangchujiang.com/#/sponsor" target="_blank">支持</a>我的方式：</sup>
+  <br>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6758053530" title="Scap: Screenshot & Markup Edit for macOS"><img alt="Scap: Screenshot & Markup Edit" height="52" src="https://wangchujiang.com/appicon/scap.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6757317079" title="Screen Test for macOS"><img alt="Screen Test" height="52" src="https://wangchujiang.com/appicon/screen-test.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6755948110" title="Deskmark for macOS"><img alt="Deskmark" height="52" src="https://wangchujiang.com/appicon/deskmark.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6500434773" title="Keyzer for macOS"><img alt="Keyzer" height="52" src="https://wangchujiang.com/appicon/keyzer.png"></a>
+  <a target="_blank" href="https://github.com/jaywcjlove/vidwall-hub" title="Vidwall Hub for macOS"><img alt="Vidwall Hub" height="52" src="https://wangchujiang.com/appicon/vidwall-hub.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6752624705" title="VidCrop for macOS"><img alt="VidCrop" height="52" src="https://wangchujiang.com/appicon/vidcrop.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6747587746" title="Vidwall for macOS"><img alt="Vidwall" height="52" src="https://wangchujiang.com/appicon/vidwall.png"></a>
+  <a target="_blank" href="https://wangchujiang.com/mousio-hint/" title="Mousio Hint for macOS"><img alt="Mousio Hint" height="52" src="https://wangchujiang.com/appicon/mousio-hint.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6746747327" title="Mousio for macOS"><img alt="Mousio" height="52" src="https://wangchujiang.com/appicon/mousio.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6745227444" title="Musicer for macOS"><img alt="Musicer" height="52" src="https://wangchujiang.com/appicon/musicer.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6743841447" title="Audioer for macOS"><img alt="Audioer" height="52" src="https://wangchujiang.com/appicon/audioer.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6744690194" title="FileSentinel for macOS"><img alt="FileSentinel" height="52" src="https://wangchujiang.com/appicon/file-sentinel.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6743495172" title="FocusCursor for macOS"><img alt="FocusCursor" height="52" src="https://wangchujiang.com/appicon/focus-cursor.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6742680573" title="Videoer for macOS"><img alt="Videoer" height="52" src="https://wangchujiang.com/appicon/videoer.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6740425504" title="KeyClicker for macOS"><img alt="KeyClicker" height="52" src="https://wangchujiang.com/appicon/key-clicker.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6739052447" title="DayBar for macOS"><img alt="DayBar" height="52" src="https://wangchujiang.com/appicon/daybar.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6739444407" title="Iconed for macOS"><img alt="Iconed" height="52" src="https://wangchujiang.com/appicon/iconed.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6737160756" title="Menuist for macOS"><img alt="Menuist" height="52" src="https://wangchujiang.com/appicon/rightmenu-master.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6723903021" title="Paste Quick for macOS"><img alt="Quick RSS" height="52" src="https://wangchujiang.com/appicon/paste-quick.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6670696072&platform=mac" title="Quick RSS for macOS/iOS"><img alt="Quick RSS" height="52" src="https://wangchujiang.com/appicon/quick-rss.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6670167443" title="Web Serve for macOS"><img alt="Web Serve" height="52" src="https://wangchujiang.com/appicon/web-serve.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6503953628&platform=mac" title="Copybook Generator for macOS/iOS"><img alt="Copybook Generator" height="52" src="https://wangchujiang.com/appicon/copybook-generator.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6471227008&platform=mac" title="DevTutor for macOS/iOS"><img alt="DevTutor for SwiftUI" height="52" src="https://wangchujiang.com/appicon/devtutor.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6479819388&platform=mac" title="RegexMate for macOS/iOS"><img alt="RegexMate" height="52" src="https://wangchujiang.com/appicon/regex-mate.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6479194014&platform=mac" title="Time Passage for macOS/iOS"><img alt="Time Passage" height="52" src="https://wangchujiang.com/appicon/time-passage.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6478772538" title="IconizeFolder for macOS"><img alt="Iconize Folder" height="52" src="https://wangchujiang.com/appicon/iconize-folder.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6478511402&platform=mac" title="Textsound Saver for macOS/iOS"><img alt="Textsound Saver" height="52" src="https://wangchujiang.com/appicon/textsound-saver.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6476924627" title="Create Custom Symbols for macOS"><img alt="Create Custom Symbols" height="52" src="https://wangchujiang.com/appicon/create-custom-symbols.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6476452351" title="DevHub for macOS"><img alt="DevHub" height="52" src="https://wangchujiang.com/appicon/devhub.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6476400184" title="Resume Revise for macOS"><img alt="Resume Revise" height="52" src="https://wangchujiang.com/appicon/resume-revise.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6472593276" title="Palette Genius for macOS"><img alt="Palette Genius" height="52" src="https://wangchujiang.com/appicon/palette-genius.png"></a>
+  <a target="_blank" href="https://jaywcjlove.github.io/maslink/?id=6470879005" title="Symbol Scribe for macOS"><img alt="Symbol Scribe" height="52" src="https://wangchujiang.com/appicon/symbol-scribe.png"></a>
+</div>
+<hr>
+
+
 中华人民共和国行政区划代码
 ===
 
-[![Github Issues](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) [![Github Forks](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) [![Github Stars](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) [![Github Release](https://img.shields.io/github/release/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) ![no dependencies](http://jaywcjlove.github.io/sb/status/no-dependencies.svg) [![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
+[![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
+[![Github Issues](https://img.shields.io/github/issues/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/issues) 
+[![Github Forks](https://img.shields.io/github/forks/uiwjs/province-city-china.svg)](https://github.comuiwjs/province-city-china/network) 
+[![Github Stars](https://img.shields.io/github/stars/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/stargazers) 
+[![Github Release](https://img.shields.io/github/release/uiwjs/province-city-china.svg)](https://github.com/uiwjs/province-city-china/releases) 
+![no dependencies](http://jaywcjlove.github.io/sb/status/no-dependencies.svg) 
+[![npm package](https://img.shields.io/npm/v/province-city-china.svg)](https://www.npmjs.com/package/province-city-china)
 
 中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级。来自中华人民共和国民政部，用于查询中国省，市和区数据的网站。 
 
@@ -9,9 +55,14 @@
 数据更新时间：2021/03/22 15:39:04 GMT+0800 (中国标准时间)
 ```
 
-- [中华人民共和国行政区划代码，更新时间：2021-01-04](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
-- [统计用区划和城乡划分代码，更新时间：2021-12-30](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [中国国家地名信息库-接口服务，更新时间：2026-10-09](https://dmfw.mca.gov.cn/interface.html)
+- [~~中华人民共和国行政区划代码，更新时间：2021-01-04~~](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
+- [~~统计用区划和城乡划分代码，更新时间：2021-12-30~~](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 - [~~国家和地区代码列表(下载)，更新时间：2011-12-06~~](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html) 数据已被删除
+
+### 中国国家地名信息库-接口服务
+
+国家地名信息库提供好了接口可以使用，这是一个非常好的进步，现在数据通过[官方接口](./NationalGeoNamesAPI.md)更新数据
 
 ### 数据更新 Diff
 
@@ -44,7 +95,7 @@ npm install province-city-china --save-dev
 | [@province-city-china/city](https://github.com/uiwjs/province-city-china/tree/master/packages/city) | 地级(城市) | [![npm package](https://img.shields.io/npm/v/@province-city-china/city.svg)](https://www.npmjs.com/package/@province-city-china/city) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/city) |
 | [@province-city-china/area](https://github.com/uiwjs/province-city-china/tree/master/packages/area) | 县级(区县) | [![npm package](https://img.shields.io/npm/v/@province-city-china/area.svg)](https://www.npmjs.com/package/@province-city-china/area) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/area) |
 | [@province-city-china/town](https://github.com/uiwjs/province-city-china/tree/master/packages/town) | 乡级(乡镇/街) | [![npm package](https://img.shields.io/npm/v/@province-city-china/town.svg)](https://www.npmjs.com/package/@province-city-china/town) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/town) |
-| [@province-city-china/level](https://github.com/uiwjs/province-city-china/tree/master/packages/level) | 总数据(省/地/县/乡)层级数据 | [![npm package](https://img.shields.io/npm/v/@province-city-china/level.svg)](https://www.npmjs.com/package/@province-city-china/level) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/level) |
+| [@province-city-china/level](https://github.com/uiwjs/province-city-china/tree/master/packages/level) | 总数据(省/地/县)层级数据 | [![npm package](https://img.shields.io/npm/v/@province-city-china/level.svg)](https://www.npmjs.com/package/@province-city-china/level) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/level) |
 | [@province-city-china/utils](https://github.com/uiwjs/province-city-china/tree/master/packages/utils) | 提供使用数据方法 | [![npm package](https://img.shields.io/npm/v/@province-city-china/utils.svg)](https://www.npmjs.com/package/@province-city-china/utils) | ![](https://img.shields.io/bundlephobia/min/@province-city-china/utils) |
 | [@province-city-china/types](https://github.com/uiwjs/province-city-china/tree/master/packages/types) | 类型文件 | [![npm package](https://img.shields.io/npm/v/@province-city-china/types.svg)](https://www.npmjs.com/package/@province-city-china/types) | - |
 | [@province-city-china/district-code](https://github.com/uiwjs/province-city-china/tree/master/packages/district-code) | 国内长途电话区号 | [![npm package](https://img.shields.io/npm/v/@province-city-china/district-code.svg)](https://www.npmjs.com/package/@province-city-china/district-code) | - |
@@ -113,7 +164,7 @@ const city = require('province-city-china/dist/city.json');
 | ---- | ---- | ---- | ---- |  ---- |
 | 国家和地区代码列表([#13](https://github.com/uiwjs/province-city-china/issues/13)) | [country.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/country.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/country.min.json)) | [country.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/country.csv) | - | [csv](https://unpkg.com/province-city-china/dist/country.csv) / [json](https://unpkg.com/province-city-china/dist/country.json) |
 | 总数据(省/地/县/乡) | [data.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.min.json)) | [data.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.csv) | [data.sql](https://github.com/uiwjs/province-city-china/blob/gh-pages/data.sql) | [data.sql](https://unpkg.com/province-city-china/dist/data.sql) / [csv](https://unpkg.com/province-city-china/dist/data.csv) / [json](https://unpkg.com/province-city-china/dist/data.json) |
-| 总数据(省/地/县/乡)层级数据 | [level.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.min.json)) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
+| 总数据(省/地/县)层级数据 | [level.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/level.min.json)) | - | - | [level.json](https://unpkg.com/province-city-china/dist/level.json) |
 | 省级(省/直辖市/特别行政区) | [province.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/province.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/province.min.json)) | [province.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/province.csv) | - | [province.json](https://unpkg.com/province-city-china/dist/province.json) / [csv](https://unpkg.com/province-city-china/dist/province.csv) |
 | 地级(城市) | [city.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/city.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/city.min.json)) | [city.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/city.csv) | - | [city.json](https://unpkg.com/province-city-china/dist/city.json) / [csv](https://unpkg.com/province-city-china/dist/city.csv) |
 | 县级(区县) | [area.json](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.json) ([min](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.min.json)) | [area.csv](https://github.com/uiwjs/province-city-china/blob/gh-pages/area.csv) | - | [area.json](https://unpkg.com/province-city-china/dist/area.json) / [csv](https://unpkg.com/province-city-china/dist/area.csv) |

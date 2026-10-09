@@ -11,10 +11,10 @@ jobs:
       contents: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
       - run: npm -v
@@ -114,79 +114,57 @@ jobs:
             | [@province-city-china/district-code](https://github.com/uiwjs/province-city-china/tree/master/packages/district-code) | 国内长途电话区号 | [![npm package](https://img.shields.io/npm/v/@province-city-china/district-code.svg)](https://www.npmjs.com/package/@province-city-china/district-code) | - |
 
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 province-city-china publish to NPM
         continue-on-error: true
         working-directory: packages/core
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/area publish to NPM
         continue-on-error: true
         working-directory: packages/area
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/city publish to NPM
         continue-on-error: true
         working-directory: packages/city
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/country publish to NPM
         continue-on-error: true
         working-directory: packages/country
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/data publish to NPM
         continue-on-error: true
         working-directory: packages/data
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/district-code publish to NPM
         continue-on-error: true
         working-directory: packages/district-code
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/level publish to NPM
         continue-on-error: true
         working-directory: packages/level
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/province publish to NPM
         continue-on-error: true
         working-directory: packages/province
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/town publish to NPM
         continue-on-error: true
         working-directory: packages/town
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/types publish to NPM
         continue-on-error: true
         working-directory: packages/types
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - run: npm publish --access public --provenance
+      - run: NODE_AUTH_TOKEN="" npm publish --access public --provenance
         name: 📦 @province-city-china/utils publish to NPM
         continue-on-error: true
         working-directory: packages/utils
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

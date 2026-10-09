@@ -1,5 +1,6 @@
 /**
- * 1. 获<街道>数据
+ * 1. 通过国家地名信息库获取<街道>数据
+ *    https://dmfw.mca.gov.cn/9095/xzqh/getList
  */
  const FS = require('fs-extra');
  const { getTown } = require('./utils');
