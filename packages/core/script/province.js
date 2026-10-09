@@ -1,19 +1,18 @@
 /**
- * 1. 获取<省><市><区>数据
- * 2. 获取四个<自治区直辖县级行政区划> !!!需要校验数据数据太老缺失数据
- *    - 42 湖北省
- *    - 46 海南省
- *    - 65 新疆维吾尔自治区
- *    - 41 河南省
- * 3. 处理四个<北京市|上海市|天津市|重庆市>直辖市数据【直辖市区的数据此步骤已获取】
+ * 1. 通过国家地名信息库获取<省><市><区>数据
+ *    https://dmfw.mca.gov.cn/9095/xzqh/getList
+ * 2. 省直辖县级仍写入原来的虚拟市（419000 / 429000 / 469000 / 659000）
+ * 3. 四个直辖市只有区县，不写入地级市
  * 4. 分别存储<省><市><区>数据
  * 5. 缓存<区>数据用于<街道>数据获取，避免中断。
- * 6. 存储一个体积大的<省><市><区>总数据。
+ * 6. 合并已有的乡级、香港、澳门，写入总数据。不要只写省市区。
  * 7. 存储一个体积大的层级数据。
+ * 香港、澳门区级数据不在这里获取。
  */
 const FS = require('fs-extra');
 const path = require('path');
 const { getProvince } = require('./utils');
+const { writeMergedData } = require('./merge-data');
 
 ;(async () => {
   try {
@@ -102,32 +101,8 @@ const { getProvince } = require('./utils');
     const cacheAreaPath = path.resolve(process.cwd(), '.cache/area.json');
     await FS.outputFile(cacheAreaPath, JSON.stringify(areaData, null, 2));
 
-    // =================================================
-    // --------存储一个体积大的<省><市><区>总数据----------->
-    // =================================================
-    const allData = [...province].concat([...city]).map((item) => ({ ...item, city: item.code.substring(2,4) || 0, area: item.code.substring(4,6) || 0 }));
-    console.log(`✅ >\x1b[35;1m <省><市><区>\x1b[0m总数据：${allData.length}`);
-    
-    // 保存 data.json 数据
-    const allDataPath = path.resolve(process.cwd(), 'dist/data.json');
-    await FS.outputFile(allDataPath, JSON.stringify(allData, null, 2));
-    console.log('  \x1b[32;1m✔\x1b[0m 数据保存:', path.relative(process.cwd(), allDataPath));
-
-    // 保存 data.min.json 数据
-    const allDataMiniPath = path.resolve(process.cwd(), 'dist/data.min.json');
-    await FS.outputFile(allDataMiniPath, JSON.stringify(allData.map(item => ({
-      c: item.code, n: item.name, p: item.province, y: item.city || 0, a: item.area || 0
-    }))));
-    console.log('  \x1b[32;1m✔\x1b[0m 数据保存:', path.relative(process.cwd(), allDataMiniPath));
-
-    // 保存 data.csv 数据
-    let csvAllData = 'code,name,province,city,area\n';
-    [...allData].forEach(dt => {
-      csvAllData += ['code', 'name', 'province', 'city', 'area'].map(name => dt[name]).join(',') + '\n';
-    });
-    const csvAllDataPath = path.resolve(process.cwd(), 'dist/data.csv');
-    await FS.outputFile(csvAllDataPath, csvAllData.replace(/\n$/, ''));
-    console.log('  \x1b[32;1m✔\x1b[0m 数据保存:', path.relative(process.cwd(), csvAllDataPath));
+    // 总数据必须带上乡级和香港、澳门。这里若只写省市区，会把 data.csv 从四万多条盖成三千多条。
+    await writeMergedData();
 
     // =================================================
     // --------存储一个体积大的层级数据----------->

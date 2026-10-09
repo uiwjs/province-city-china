@@ -55,9 +55,14 @@
 数据更新时间：2021/03/22 15:39:04 GMT+0800 (中国标准时间)
 ```
 
-- [中华人民共和国行政区划代码，更新时间：2021-01-04](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
-- [统计用区划和城乡划分代码，更新时间：2021-12-30](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+- [中国国家地名信息库-接口服务，更新时间：2026-10-09](https://dmfw.mca.gov.cn/interface.html)
+- [~~中华人民共和国行政区划代码，更新时间：2021-01-04~~](http://www.mca.gov.cn/article/sj/xzqh/2020/)  
+- [~~统计用区划和城乡划分代码，更新时间：2021-12-30~~](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
 - [~~国家和地区代码列表(下载)，更新时间：2011-12-06~~](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html) 数据已被删除
+
+### 中国国家地名信息库-接口服务
+
+国家地名信息库提供好了接口可以使用，这是一个非常好的进步，现在数据通过[官方接口](./NationalGeoNamesAPI.md)更新数据
 
 ### 数据更新 Diff
 

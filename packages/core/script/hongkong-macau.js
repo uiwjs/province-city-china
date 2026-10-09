@@ -1,14 +1,11 @@
 /**
+ * 香港、澳门区级数据继续用原来的阿里云 DataV 接口。
+ * 国家地名信息库没有返回香港下级区划，香港不改用该接口。
  * 数据来源：http://datav.aliyun.com/portal/school/atlas/area_selector
- * ⚠️ 数据需要点击地图拿到 api
  */
 
 const fs = require('fs-extra');
-const path = require('path');
 const request = require('superagent');
-const cheerio = require('cheerio');
-
-require('superagent-charset')(request);
 
 ;(async () => {
   const hongkongurl = `https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=810000_full`;

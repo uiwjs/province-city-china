@@ -1,5 +1,5 @@
 /**
- * 检查<市>下面所有区的数据，一次性数据老旧，需要重新校验一下。
+ * 用国家地名信息库核对<市>下面的区县，缺的补进 area.json。
  */
 const path = require('path');
 const fs = require('fs-extra');
@@ -52,7 +52,7 @@ const loop = async () => {
     } else {
       console.log(`     ❌ 校验<区>数据:loop:error:002: ${data.name}/${data.code}`, error);
       console.log('     🚸 校验<区>数据:loop:暂停 90s 继续！');
-      await this.sleep(90000);
+      await sleep(90000);
     }
     loop();
   }
