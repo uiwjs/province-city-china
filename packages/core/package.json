@@ -65,7 +65,7 @@
   },
   "devDependencies": {
     "fs-extra": "~10.0.1",
-    "superagent": "~7.1.1",
+    "superagent": "~10.2.0",
     "superagent-charset": "~1.2.0"
   }
 }
